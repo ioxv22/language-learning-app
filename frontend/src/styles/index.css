@@ -1,0 +1,298 @@
+/* ملف الأنماط الرئيسي - يحتوي على Tailwind CSS والأنماط المخصصة */
+
+/* استيراد Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* الأنماط الأساسية للتطبيق */
+@layer base {
+  html {
+    font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+    direction: rtl;
+  }
+  
+  body {
+    @apply bg-gray-50 text-gray-900;
+    line-height: 1.6;
+  }
+  
+  /* تحسين عرض النص العربي */
+  .arabic-text {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Tahoma', 'Arial', 'Segoe UI', sans-serif;
+  }
+  
+  /* تحسين عرض النص الإنجليزي */
+  .english-text {
+    direction: ltr;
+    text-align: left;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+  }
+}
+
+/* مكونات مخصصة */
+@layer components {
+  /* أزرار مخصصة */
+  .btn-press {
+    @apply transition-transform duration-100 active:scale-95;
+  }
+  
+  .btn-primary {
+    @apply bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-200 btn-press;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-200 btn-press;
+  }
+  
+  .btn-success {
+    @apply bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-200 btn-press;
+  }
+  
+  .btn-danger {
+    @apply bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-200 btn-press;
+  }
+  
+  /* البطاقات */
+  .card {
+    @apply bg-white rounded-lg shadow-md p-6;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+  }
+  
+  /* البطاقات التعليمية */
+  .flashcard {
+    @apply relative w-full h-64 cursor-pointer;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+  }
+  
+  .flashcard-inner {
+    @apply relative w-full h-full transition-transform duration-600;
+    transform-style: preserve-3d;
+  }
+  
+  .flashcard-inner.flipped {
+    transform: rotateY(180deg);
+  }
+  
+  .flashcard-face {
+    @apply absolute inset-0 w-full h-full backface-visibility-hidden rounded-lg shadow-lg flex items-center justify-center p-6;
+  }
+  
+  .flashcard-front {
+    @apply bg-gradient-to-br from-blue-500 to-blue-600 text-white;
+  }
+  
+  .flashcard-back {
+    @apply bg-gradient-to-br from-green-500 to-green-600 text-white;
+    transform: rotateY(180deg);
+  }
+  
+  /* خيارات الاختبار */
+  .quiz-option {
+    @apply p-4 border-2 border-gray-200 rounded-lg cursor-pointer transition-all duration-200 hover:border-blue-300 hover:bg-blue-50;
+  }
+  
+  .quiz-option.selected {
+    @apply border-blue-500 bg-blue-100 text-blue-800;
+  }
+  
+  .quiz-option.correct {
+    @apply border-green-500 bg-green-100 text-green-800;
+  }
+  
+  .quiz-option.incorrect {
+    @apply border-red-500 bg-red-100 text-red-800;
+  }
+  
+  /* حقول الإدخال */
+  .input-field {
+    @apply w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors;
+  }
+  
+  /* التنقل */
+  .nav-link {
+    @apply px-4 py-2 rounded-lg transition-colors duration-200 flex items-center gap-2;
+  }
+  
+  .nav-link.active {
+    @apply bg-blue-100 text-blue-600 font-semibold;
+  }
+  
+  .nav-link:not(.active) {
+    @apply text-gray-600 hover:text-blue-600 hover:bg-blue-50;
+  }
+}
+
+/* أدوات مخصصة */
+@layer utilities {
+  /* إخفاء الجزء الخلفي */
+  .backface-visibility-hidden {
+    backface-visibility: hidden;
+  }
+  
+  /* المنظور ثلاثي الأبعاد */
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+  
+  /* تأثيرات التدرج للنصوص */
+  .text-gradient {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  /* تأثيرات الحركة */
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .animate-slide-in {
+    animation: slideIn 0.3s ease-out;
+  }
+  
+  .animate-bounce-slow {
+    animation: bounce 2s infinite;
+  }
+  
+  /* التمرير السلس */
+  .scroll-smooth {
+    scroll-behavior: smooth;
+  }
+  
+  /* إخفاء شريط التمرير */
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* تحديد النص */
+  .select-none {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* الظلال المخصصة */
+  .shadow-card {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  .shadow-card-hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .shadow-flashcard {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+}
+
+/* حركات مخصصة */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes flip {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(180deg);
+  }
+}
+
+/* تحسينات للطباعة */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  .print-break {
+    page-break-after: always;
+  }
+}
+
+/* تحسينات للشاشات الصغيرة */
+@media (max-width: 640px) {
+  .flashcard {
+    height: 200px;
+  }
+  
+  .card {
+    padding: 1rem;
+  }
+}
+
+/* تحسينات للشاشات الكبيرة */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+/* تحسينات للوضع المظلم (يمكن تفعيلها لاحقاً) */
+@media (prefers-color-scheme: dark) {
+  .dark-mode body {
+    @apply bg-gray-900 text-gray-100;
+  }
+  
+  .dark-mode .card {
+    @apply bg-gray-800 text-gray-100;
+  }
+}
+
+/* إضافات للوصولية */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* تحسينات لمحركات البحث */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

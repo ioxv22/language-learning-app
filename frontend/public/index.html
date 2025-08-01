@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#000000" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000" />
+    <meta name="msapplication-navbutton-color" content="#000000" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="msapplication-navbutton-color" content="#000000" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta
+      name="description"
+      content="موقع تعليم اللغات - تعلم اللغة الإنجليزية بطريقة تفاعلية وممتعة"
+    />
+    <title>موقع تعليم اللغات 🌐</title>
+    
+    <!-- Tailwind CSS CDN - للتصميم الجميل والسهل -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- إعدادات Tailwind للغة العربية -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              'arabic': ['Arial', 'Tahoma', 'Segoe UI', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    
+    <!-- أيقونات Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+      /* إعدادات خاصة للغة العربية */
+      /* استخدم font-arabic من Tailwind بدلاً من تكرار الخطوط هنا */
+      body {
+        direction: rtl;
+      }
+      
+      /* تحسين عرض النصوص الإنجليزية */
+      .english-text {
+        direction: ltr;
+        font-family: 'Segoe UI', Arial, sans-serif;
+      }
+      
+      /* تأثيرات جميلة للبطاقات */
+      .card-hover {
+        transition: all 0.3s ease;
+      }
+      
+      .card-hover:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      }
+      
+      /* تأثير الضغط على الأزرار */
+      .btn-press {
+        transition: all 0.1s ease;
+      }
+      
+      .btn-press:active {
+        transform: scale(0.95);
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 font-arabic">
+    <noscript>يرجى تفعيل JavaScript لتشغيل هذا التطبيق.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

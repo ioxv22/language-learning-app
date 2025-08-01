@@ -1,0 +1,259 @@
+/* استيراد Tailwind CSS */
+@tailwind base;
+@tailwind components;  
+@tailwind utilities;
+
+/* الأنماط الأساسية */
+@layer base {
+  html {
+    font-family: 'Inter', 'Segoe UI', 'Tahoma', 'Arial', sans-serif;
+    direction: rtl;
+  }
+  
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+    line-height: 1.6;
+  }
+  
+  /* تحسين النصوص العربية */
+  .arabic-text {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Tahoma', 'Arial', 'Segoe UI', sans-serif;
+  }
+  
+  /* تحسين النصوص الإنجليزية */
+  .english-text {
+    direction: ltr;
+    text-align: left;
+    font-family: 'Inter', 'Segoe UI', 'Arial', sans-serif;
+  }
+}
+
+/* المكونات المخصصة */
+@layer components {
+  /* الأزرار */
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-600 text-white hover:bg-primary-700 focus:ring-primary-500;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-600 text-white hover:bg-gray-700 focus:ring-gray-500;
+  }
+  
+  .btn-success {
+    @apply bg-success-600 text-white hover:bg-success-700 focus:ring-success-500;
+  }
+  
+  .btn-danger {
+    @apply bg-danger-600 text-white hover:bg-danger-700 focus:ring-danger-500;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-white;
+  }
+  
+  /* البطاقات */
+  .card {
+    @apply bg-white rounded-lg shadow-card p-6;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-card-hover hover:-translate-y-1;
+  }
+  
+  /* حقول الإدخال */
+  .input {
+    @apply w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-colors;
+  }
+  
+  /* التنقل */
+  .nav-link {
+    @apply px-4 py-2 rounded-lg transition-colors duration-200 flex items-center gap-2;
+  }
+  
+  .nav-link.active {
+    @apply bg-primary-100 text-primary-800 font-semibold;
+  }
+  
+  .nav-link:not(.active) {
+    @apply text-gray-600 hover:text-primary-600 hover:bg-primary-50;
+  }
+  
+  /* التنبيهات */
+  .alert {
+    @apply p-4 rounded-lg mb-4;
+  }
+  
+  .alert-success {
+    @apply bg-success-50 text-success-800 border border-success-200;
+  }
+  
+  .alert-danger {
+    @apply bg-danger-50 text-danger-800 border border-danger-200;
+  }
+  
+  .alert-warning {
+    @apply bg-warning-50 text-warning-800 border border-warning-200;
+  }
+  
+  .alert-info {
+    @apply bg-primary-50 text-primary-800 border border-primary-200;
+  }
+  
+  /* شريط التقدم */
+  .progress-bar {
+    @apply w-full bg-gray-200 rounded-full h-2;
+  }
+  
+  .progress-fill {
+    @apply bg-primary-600 h-2 rounded-full transition-all duration-300;
+  }
+  
+  /* الاختبارات */
+  .quiz-option {
+    @apply p-4 border-2 border-gray-200 rounded-lg cursor-pointer transition-all duration-200 hover:border-primary-300 hover:bg-primary-50;
+  }
+  
+  .quiz-option.selected {
+    @apply border-primary-500 bg-primary-100 text-primary-800;
+  }
+  
+  .quiz-option.correct {
+    @apply border-success-500 bg-success-100 text-success-800;
+  }
+  
+  .quiz-option.incorrect {
+    @apply border-danger-500 bg-danger-100 text-danger-800;
+  }
+  
+  /* تمارين الكتابة */
+  .writing-input {
+    @apply w-full p-4 border-2 border-gray-300 rounded-lg text-lg font-medium focus:border-primary-500 focus:ring-0 transition-colors;
+  }
+  
+  .writing-input.correct {
+    @apply border-success-500 bg-success-50;
+  }
+  
+  .writing-input.incorrect {
+    @apply border-danger-500 bg-danger-50;
+  }
+  
+  /* الكلمات المفتاحية */
+  .keyword-card {
+    @apply bg-gradient-to-r from-primary-50 to-primary-100 p-4 rounded-lg border border-primary-200;
+  }
+  
+  /* أزرار النطق */
+  .speak-btn {
+    @apply p-2 text-primary-600 hover:text-primary-700 hover:bg-primary-50 rounded-lg transition-colors duration-200;
+  }
+  
+  .speak-btn.playing {
+    @apply text-success-600 bg-success-50 animate-pulse;
+  }
+}
+
+/* الأدوات المساعدة */
+@layer utilities {
+  /* تأثيرات الحركة */
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.3s ease-out;
+  }
+  
+  /* الظلال المخصصة */
+  .shadow-glow {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+  }
+  
+  /* التمرير السلس */
+  .scroll-smooth {
+    scroll-behavior: smooth;
+  }
+  
+  /* إخفاء شريط التمرير */
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* التفاعل مع النقر */
+  .btn-press {
+    @apply transition-transform duration-100 active:scale-95;
+  }
+  
+  /* التدرجات الجميلة */
+  .gradient-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+  
+  .gradient-success {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  }
+  
+  .gradient-warning {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  }
+  
+  /* النصوص المتدرجة */
+  .text-gradient {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+/* تحسينات للأجهزة المحمولة */
+@media (max-width: 640px) {
+  .card {
+    @apply p-4;
+  }
+  
+  .btn {
+    @apply px-3 py-2 text-sm;
+  }
+}
+
+/* تحسينات للطباعة */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  .card {
+    @apply shadow-none border border-gray-300;
+  }
+}
+
+/* تحسينات للوصولية */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* للأجهزة عالية الدقة */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .high-dpi {
+    transform: scale(0.5);
+    transform-origin: top left;
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "English Basics - الأساسيات الإنجليزية",
+      "description": "تعلم أساسيات اللغة الإنجليزية من البداية",
+      "level": "beginner",
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Introduction to English - مقدمة في الإنجليزية",
+          "description": "تعرف على أساسيات اللغة الإنجليزية",
+          "paragraphs": [
+            {
+              "id": 1,
+              "title": "What is English?",
+              "content": "English is a global language spoken by over 1.5 billion people worldwide. It originated in England and has become the international language of business, science, and technology.",
+              "translation": "الإنجليزية هي لغة عالمية يتحدث بها أكثر من 1.5 مليار شخص حول العالم. نشأت في إنجلترا وأصبحت اللغة الدولية للأعمال والعلوم والتكنولوجيا.",
+              "keyWords": [
+                {
+                  "word": "global",
+                  "pronunciation": "ˈɡloʊbəl",
+                  "translation": "عالمي",
+                  "example": "English is a global language"
+                },
+                {
+                  "word": "worldwide",
+                  "pronunciation": "ˈwɜːrldwaɪd", 
+                  "translation": "في جميع أنحاء العالم",
+                  "example": "It is spoken worldwide"
+                }
+              ],
+              "quiz": [
+                {
+                  "id": 1,
+                  "question": "How many people speak English worldwide?",
+                  "questionAr": "كم شخص يتحدث الإنجليزية في العالم؟",
+                  "options": [
+                    "Over 1.5 billion",
+                    "500 million", 
+                    "2 billion",
+                    "1 billion"
+                  ],
+                  "optionsAr": [
+                    "أكثر من 1.5 مليار",
+                    "500 مليون",
+                    "2 مليار", 
+                    "مليار واحد"
+                  ],
+                  "correctAnswer": 0,
+                  "explanation": "English is spoken by over 1.5 billion people worldwide.",
+                  "explanationAr": "يتحدث الإنجليزية أكثر من 1.5 مليار شخص حول العالم."
+                },
+                {
+                  "id": 2,
+                  "question": "Where did English originate?",
+                  "questionAr": "أين نشأت اللغة الإنجليزية؟",
+                  "options": [
+                    "America",
+                    "England",
+                    "Australia", 
+                    "Canada"
+                  ],
+                  "optionsAr": [
+                    "أمريكا",
+                    "إنجلترا",
+                    "أستراليا",
+                    "كندا"
+                  ],
+                  "correctAnswer": 1,
+                  "explanation": "English originated in England.",
+                  "explanationAr": "نشأت الإنجليزية في إنجلترا."
+                }
+              ],
+              "writingExercises": [
+                {
+                  "id": 1,
+                  "instruction": "Complete the sentence:",
+                  "instructionAr": "أكمل الجملة:",
+                  "sentence": "English is a _____ language.",
+                  "correctAnswer": "global",
+                  "hint": "Think about the reach of English around the world",
+                  "hintAr": "فكر في انتشار الإنجليزية حول العالم"
+                },
+                {
+                  "id": 2,
+                  "instruction": "Fill in the blank:",
+                  "instructionAr": "املأ الفراغ:",
+                  "sentence": "English originated in _____.",
+                  "correctAnswer": "England",
+                  "hint": "The country where English first developed",
+                  "hintAr": "البلد الذي تطورت فيه الإنجليزية أولاً"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title": "Basic English Alphabet",
+              "content": "The English alphabet consists of 26 letters: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z. Each letter can be written in uppercase (capital) or lowercase (small) form.",
+              "translation": "تتكون الأبجدية الإنجليزية من 26 حرفاً: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z. يمكن كتابة كل حرف بشكل كبير (capital) أو صغير (small).",
+              "keyWords": [
+                {
+                  "word": "alphabet",
+                  "pronunciation": "ˈælfəbet",
+                  "translation": "أبجدية",
+                  "example": "The English alphabet has 26 letters"
+                },
+                {
+                  "word": "uppercase",
+                  "pronunciation": "ˈʌpərkeɪs",
+                  "translation": "أحرف كبيرة",
+                  "example": "A is an uppercase letter"
+                },
+                {
+                  "word": "lowercase",
+                  "pronunciation": "ˈloʊərkeɪs",
+                  "translation": "أحرف صغيرة", 
+                  "example": "a is a lowercase letter"
+                }
+              ],
+              "quiz": [
+                {
+                  "id": 3,
+                  "question": "How many letters are in the English alphabet?",
+                  "questionAr": "كم حرف في الأبجدية الإنجليزية؟",
+                  "options": [
+                    "24",
+                    "25",
+                    "26",
+                    "27"
+                  ],
+                  "optionsAr": [
+                    "24",
+                    "25", 
+                    "26",
+                    "27"
+                  ],
+                  "correctAnswer": 2,
+                  "explanation": "The English alphabet has 26 letters.",
+                  "explanationAr": "الأبجدية الإنجليزية تحتوي على 26 حرف."
+                }
+              ],
+              "writingExercises": [
+                {
+                  "id": 3,
+                  "instruction": "Write the first 5 letters of the alphabet:",
+                  "instructionAr": "اكتب أول 5 أحرف من الأبجدية:",
+                  "sentence": "_____, _____, _____, _____, _____",
+                  "correctAnswer": "A, B, C, D, E",
+                  "hint": "Start from the beginning",
+                  "hintAr": "ابدأ من البداية"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Basic Greetings - التحيات الأساسية",
+          "description": "تعلم التحيات والسلامات باللغة الإنجليزية",
+          "paragraphs": [
+            {
+              "id": 3,
+              "title": "Common Greetings",
+              "content": "Greetings are the first words we use when meeting someone. The most common English greetings are 'Hello', 'Hi', 'Good morning', 'Good afternoon', and 'Good evening'. These simple words help us start conversations and show politeness.",
+              "translation": "التحيات هي أول الكلمات التي نستخدمها عند مقابلة شخص ما. أكثر التحيات الإنجليزية شيوعاً هي 'Hello', 'Hi', 'Good morning', 'Good afternoon', و 'Good evening'. هذه الكلمات البسيطة تساعدنا على بدء المحادثات وإظهار الأدب.",
+              "keyWords": [
+                {
+                  "word": "Hello",
+                  "pronunciation": "həˈloʊ",
+                  "translation": "مرحبا",
+                  "example": "Hello, how are you?"
+                },
+                {
+                  "word": "Good morning",
+                  "pronunciation": "ɡʊd ˈmɔrnɪŋ",
+                  "translation": "صباح الخير",
+                  "example": "Good morning, everyone!"  
+                },
+                {
+                  "word": "Good evening",
+                  "pronunciation": "ɡʊd ˈivnɪŋ",
+                  "translation": "مساء الخير",
+                  "example": "Good evening, sir."
+                }
+              ],
+              "quiz": [
+                {
+                  "id": 4,
+                  "question": "What do we use greetings for?",
+                  "questionAr": "لماذا نستخدم التحيات؟",
+                  "options": [
+                    "To end conversations",
+                    "To start conversations and show politeness",
+                    "To ask for help",
+                    "To say goodbye"
+                  ],
+                  "optionsAr": [
+                    "لإنهاء المحادثات",
+                    "لبدء المحادثات وإظهار الأدب",
+                    "لطلب المساعدة",
+                    "لقول وداعا"
+                  ],
+                  "correctAnswer": 1,
+                  "explanation": "Greetings help us start conversations and show politeness.",
+                  "explanationAr": "التحيات تساعدنا على بدء المحادثات وإظهار الأدب."
+                }
+              ],
+              "writingExercises": [
+                {
+                  "id": 4,
+                  "instruction": "Write an appropriate greeting for the morning:",
+                  "instructionAr": "اكتب تحية مناسبة للصباح:",
+                  "sentence": "_____ _____",
+                  "correctAnswer": "Good morning",
+                  "hint": "What do we say in the morning?",
+                  "hintAr": "ماذا نقول في الصباح؟"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

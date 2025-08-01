@@ -1,0 +1,2769 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "كورس اللغة الإنجليزية",
+      "description": "تعلم الإنجليزية من الصفر مع فيديوهات تفاعلية ومحتوى غني",
+      "level": "beginner",
+      "duration": "8 أسابيع",
+      "lessons_count": 25,
+      "image": "https://img.youtube.com/vi/VQPdUBUvRFU/maxresdefault.jpg",
+      "color": "blue",
+      "instructor": "أحمد محمد",
+      "rating": 4.8,
+      "students": 1250,
+      "price": "مجاني",
+      "category": "لغات",
+      "skills": ["الأساسيات", "المحادثة", "القواعد", "المفردات"]
+    },
+    {
+      "id": 2,
+      "title": "Business English Mastery",
+      "description": "تعلم اللغة الإنجليزية المهنية وأساسيات التواصل في بيئة العمل",
+      "level": "intermediate",
+      "duration": "12 أسبوع",
+      "lessons_count": 30,
+      "image": "https://img.youtube.com/vi/qeTK7arSVuM/maxresdefault.jpg",
+      "color": "green",
+      "instructor": "سارة أحمد",
+      "rating": 4.9,
+      "students": 890,
+      "price": "99 درهم",
+      "category": "أعمال",
+      "skills": ["العروض التقديمية", "الكتابة المهنية", "الاجتماعات", "التفاوض"]
+    },
+    {
+      "id": 3,
+      "title": "Advanced Grammar & Writing",
+      "description": "إتقان قواعد اللغة الإنجليزية والكتابة الأكاديمية بطريقة احترافية",
+      "level": "advanced",
+      "duration": "10 أسابيع",
+      "lessons_count": 28,
+      "image": "https://img.youtube.com/vi/WBupia9oidU/maxresdefault.jpg",
+      "color": "purple",
+      "instructor": "د. خالد علي",
+      "rating": 4.7,
+      "students": 567,
+      "price": "149 درهم",
+      "category": "أكاديمي",
+      "skills": ["القواعد المتقدمة", "الكتابة الأكاديمية", "المقالات", "الأبحاث"]
+    },
+    {
+      "id": 4,
+      "title": "English for Travel & Tourism",
+      "description": "تعلم اللغة الإنجليزية للسفر والسياحة مع مواقف حقيقية وعبارات مفيدة",
+      "level": "intermediate",
+      "duration": "6 أسابيع",
+      "lessons_count": 20,
+      "image": "https://img.youtube.com/vi/6Nf90jVbBXI/maxresdefault.jpg",
+      "color": "orange",
+      "instructor": "مريم حسن",
+      "rating": 4.6,
+      "students": 734,
+      "price": "79 درهم",
+      "category": "سفر",
+      "skills": ["حجز الفنادق", "في المطار", "الاتجاهات", "المطاعم"]
+    },
+    {
+      "id": 5,
+      "title": "Medical English Essentials",
+      "description": "اللغة الإنجليزية الطبية للعاملين في المجال الصحي",
+      "level": "intermediate",
+      "duration": "14 أسبوع",
+      "lessons_count": 35,
+      "image": "https://img.youtube.com/vi/MHPwNa5w7xI/maxresdefault.jpg",
+      "color": "red",
+      "instructor": "د. فاطمة أحمد",
+      "rating": 4.8,
+      "students": 423,
+      "price": "199 درهم",
+      "category": "طبي",
+      "skills": ["المصطلحات الطبية", "مع المرضى", "التقارير الطبية", "الحالات الطارئة"]
+    },
+    {
+      "id": 6,
+      "title": "IELTS Preparation Course",
+      "description": "التحضير الشامل لاختبار IELTS مع استراتيجيات ونماذج امتحانات",
+      "level": "intermediate",
+      "duration": "16 أسبوع",
+      "lessons_count": 40,
+      "image": "https://img.youtube.com/vi/ZCqdb7UhRbY/maxresdefault.jpg",
+      "color": "indigo",
+      "instructor": "أستاذ عمر سالم",
+      "rating": 4.9,
+      "students": 912,
+      "price": "299 درهم",
+      "category": "اختبارات",
+      "skills": ["القراءة", "الكتابة", "الاستماع", "المحادثة"]
+    },
+    {
+      "id": 7,
+      "title": "English Pronunciation Mastery",
+      "description": "تحسين النطق والتحدث بثقة مع تقنيات متقدمة وتدريبات صوتية",
+      "level": "beginner",
+      "duration": "8 أسابيع",
+      "lessons_count": 24,
+      "image": "https://img.youtube.com/vi/dVolVQ71xy4/maxresdefault.jpg",
+      "color": "pink",
+      "instructor": "جون سميث",
+      "rating": 4.7,
+      "students": 656,
+      "price": "89 درهم",
+      "category": "نطق",
+      "skills": ["الأصوات الإنجليزية", "التنغيم", "الضغط", "الربط"]
+    },
+    {
+      "id": 8,
+      "title": "Kids English Adventure",
+      "description": "تعليم الإنجليزية للأطفال بطريقة ممتعة مع الألعاب والأغاني",
+      "level": "beginner",
+      "duration": "12 أسبوع",
+      "lessons_count": 36,
+      "image": "https://img.youtube.com/vi/gGpdkHNZ5iM/maxresdefault.jpg",
+      "color": "yellow",
+      "instructor": "أستاذة ليلى",
+      "rating": 4.8,
+      "students": 1156,
+      "price": "120 درهم",
+      "category": "أطفال",
+      "skills": ["الألوان", "الأرقام", "الحيوانات", "الأغاني"]
+    },
+    {
+      "id": 9,
+      "title": "English Conversation Masterclass",
+      "description": "تطوير مهارات المحادثة والطلاقة في التحدث بالإنجليزية",
+      "level": "intermediate",
+      "duration": "10 أسابيع",
+      "lessons_count": 30,
+      "image": "https://img.youtube.com/vi/P3JMIq7rBEQ/maxresdefault.jpg",
+      "color": "teal",
+      "instructor": "مايكل جونسون",
+      "rating": 4.9,
+      "students": 2340,
+      "price": "179 درهم",
+      "category": "محادثة",
+      "skills": ["المحادثة اليومية", "التعبير عن الآراء", "النقاش", "الطلاقة"]
+    },
+    {
+      "id": 10,
+      "title": "English Literature & Poetry",
+      "description": "استكشاف الأدب الإنجليزي والشعر مع أشهر الكتاب والشعراء",
+      "level": "advanced",
+      "duration": "18 أسبوع",
+      "lessons_count": 45,
+      "image": "https://img.youtube.com/vi/msOdT_wwOUY/maxresdefault.jpg",
+      "color": "indigo",
+      "instructor": "د. إيما ويلسون",
+      "rating": 4.7,
+      "students": 456,
+      "price": "299 درهم",
+      "category": "أدب",
+      "skills": ["الأدب الكلاسيكي", "الشعر", "التحليل الأدبي", "النقد"]
+    },
+    {
+      "id": 11,
+      "title": "Tech English for IT Professionals",
+      "description": "اللغة الإنجليزية التقنية للعاملين في مجال تكنولوجيا المعلومات",
+      "level": "intermediate",
+      "duration": "12 أسبوع",
+      "lessons_count": 32,
+      "image": "https://img.youtube.com/vi/kqtD5dpn9C8/maxresdefault.jpg",
+      "color": "gray",
+      "instructor": "أليكس تشين",
+      "rating": 4.8,
+      "students": 1890,
+      "price": "249 درهم",
+      "category": "تقنية",
+      "skills": ["البرمجة", "الشبكات", "قواعد البيانات", "الأمان السيبراني"]
+    },
+    {
+      "id": 12,
+      "title": "English for Hospitality Industry",
+      "description": "اللغة الإنجليزية لصناعة الضيافة والفنادق والمطاعم",
+      "level": "intermediate",
+      "duration": "8 أسابيع",
+      "lessons_count": 25,
+      "image": "https://img.youtube.com/vi/5Dj8nBsQVQo/maxresdefault.jpg",
+      "color": "amber",
+      "instructor": "صوفيا مارتينيز",
+      "rating": 4.6,
+      "students": 678,
+      "price": "149 درهم",
+      "category": "ضيافة",
+      "skills": ["خدمة العملاء", "حجز الفنادق", "إدارة المطاعم", "السياحة"]
+    },
+    {
+      "id": 13,
+      "title": "Advanced English Communication",
+      "description": "مهارات التواصل المتقدمة والإقناع والخطابة باللغة الإنجليزية",
+      "level": "advanced",
+      "duration": "20 أسبوع",
+      "lessons_count": 50,
+      "image": "https://img.youtube.com/vi/AIpBG5akBTQ/maxresdefault.jpg",
+      "color": "rose",
+      "instructor": "د. جيمس ويليامز",
+      "rating": 4.9,
+      "students": 345,
+      "price": "399 درهم",
+      "category": "متقدم",
+      "skills": ["الخطابة", "الإقناع", "النقاش المتقدم", "القيادة"]
+    },
+    {
+      "id": 14,
+      "title": "Professional English Writing",
+      "description": "الكتابة المهنية المتقدمة للتقارير والمقالات الأكاديمية",
+      "level": "advanced",
+      "duration": "16 أسبوع",
+      "lessons_count": 40,
+      "image": "https://img.youtube.com/vi/WBupia9oidU/maxresdefault.jpg",
+      "color": "slate",
+      "instructor": "د. أليسون كلارك",
+      "rating": 4.8,
+      "students": 234,
+      "price": "349 درهم",
+      "category": "كتابة",
+      "skills": ["التقارير المهنية", "المقالات الأكاديمية", "البحث العلمي", "النشر"]
+    },
+    {
+      "id": 15,
+      "title": "Intermediate Conversation Practice",
+      "description": "ممارسة المحادثة للمستوى المتوسط مع مواضيع متنوعة",
+      "level": "intermediate",
+      "duration": "12 أسبوع",
+      "lessons_count": 35,
+      "image": "https://img.youtube.com/vi/P3JMIq7rBEQ/maxresdefault.jpg",
+      "color": "emerald",
+      "instructor": "مارك أندرسون",
+      "rating": 4.7,
+      "students": 567,
+      "price": "199 درهم",
+      "category": "محادثة",
+      "skills": ["المحادثة المتوسطة", "النقاش", "التفكير النقدي", "الطلاقة"]
+    },
+    {
+      "id": 16,
+      "title": "Advanced Grammar & Syntax",
+      "description": "قواعد النحو المعقدة وتركيب الجمل للمستوى المتقدم",
+      "level": "advanced",
+      "duration": "14 أسبوع",
+      "lessons_count": 42,
+      "image": "https://img.youtube.com/vi/WBupia9oidU/maxresdefault.jpg",
+      "color": "violet",
+      "instructor": "د. ريبيكا سميث",
+      "rating": 4.8,
+      "students": 189,
+      "price": "279 درهم",
+      "category": "قواعد",
+      "skills": ["القواعد المعقدة", "تركيب الجمل", "الأسلوب", "التحرير"]
+    },
+    {
+      "id": 17,
+      "title": "Intermediate Reading & Comprehension",
+      "description": "تحسين مهارات القراءة والفهم للنصوص المتوسطة",
+      "level": "intermediate",
+      "duration": "10 أسابيع",
+      "lessons_count": 30,
+      "image": "https://img.youtube.com/vi/msOdT_wwOUY/maxresdefault.jpg",
+      "color": "cyan",
+      "instructor": "سارة جونسون",
+      "rating": 4.6,
+      "students": 445,
+      "price": "169 درهم",
+      "category": "قراءة",
+      "skills": ["القراءة السريعة", "فهم النصوص", "التحليل", "المفردات"]
+    },
+    {
+      "id": 18,
+      "title": "Advanced Business Negotiation",
+      "description": "التفاوض التجاري المتقدم والصفقات الدولية",
+      "level": "advanced",
+      "duration": "18 أسبوع",
+      "lessons_count": 45,
+      "image": "https://img.youtube.com/vi/MN4W8XLH8DQ/maxresdefault.jpg",
+      "color": "orange",
+      "instructor": "مايكل تشانغ",
+      "rating": 4.9,
+      "students": 156,
+      "price": "449 درهم",
+      "category": "أعمال",
+      "skills": ["التفاوض المتقدم", "الصفقات الدولية", "القانون التجاري", "الاستراتيجية"]
+    }
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "course_id": 1,
+      "title": "Welcome to English - أهلاً بك في عالم الإنجليزية",
+      "description": "أول خطوة في رحلة تعلم اللغة الإنجليزية",
+      "duration": "15 دقيقة",
+      "level": "beginner",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/VQPdUBUvRFU",
+      "objectives": [
+        "التعرف على الأبجدية الإنجليزية",
+        "تعلم التحيات الأساسية", 
+        "فهم أهمية تعلم الإنجليزية"
+      ]
+    },
+    {
+      "id": 2,
+      "course_id": 1,
+      "title": "Greetings and Introductions - التحيات والتعارف",
+      "description": "تعلم كيفية التحية والتعريف بالنفس",
+      "duration": "20 دقيقة",
+      "level": "beginner",
+      "order": 2,
+      "video_url": "https://www.youtube.com/embed/8irSFvoyLHQ",
+      "objectives": [
+        "أساليب التحية المختلفة",
+        "التعريف بالنفس بطريقة مهذبة",
+        "السؤال عن الأسماء والأحوال"
+      ]
+    },
+    {
+      "id": 3,
+      "course_id": 1,
+      "title": "Numbers and Counting - الأرقام والعد",
+      "description": "تعلم الأرقام من 1 إلى 100 واستخداماتها",
+      "duration": "18 دقيقة",
+      "level": "beginner",
+      "order": 3,
+      "video_url": "https://www.youtube.com/embed/DR-cfDsHCGA",
+      "objectives": [
+        "الأرقام من 1 إلى 20",
+        "الأرقام العشرية",
+        "استخدام الأرقام في الحياة اليومية"
+      ]
+    },
+    {
+      "id": 4,
+      "course_id": 1,
+      "title": "Colors and Shapes - الألوان والأشكال",
+      "description": "استكشاف عالم الألوان والأشكال بالإنجليزية",
+      "duration": "16 دقيقة",
+      "level": "beginner",
+      "order": 4,
+      "video_url": "https://www.youtube.com/embed/tkJbXqLUkQs",
+      "objectives": [
+        "الألوان الأساسية والثانوية",
+        "الأشكال الهندسية البسيطة",
+        "وصف الأشياء بألوانها وأشكالها"
+      ]
+    },
+    {
+      "id": 5,
+      "course_id": 1,
+      "title": "Family Members - أفراد العائلة",
+      "description": "تعلم أسماء أفراد العائلة والعلاقات الأسرية",
+      "duration": "22 دقيقة",
+      "level": "beginner",
+      "order": 5,
+      "video_url": "https://www.youtube.com/embed/FKItHBMR6p0",
+      "objectives": [
+        "أسماء أفراد العائلة القريبين",
+        "العلاقات الأسرية المختلفة",
+        "التحدث عن العائلة"
+      ]
+    },
+    {
+      "id": 6,
+      "course_id": 1,
+      "title": "Days of the Week - أيام الأسبوع",
+      "description": "تعلم أيام الأسبوع والتحدث عن الأنشطة اليومية",
+      "duration": "14 دقيقة",
+      "level": "beginner",
+      "order": 6,
+      "video_url": "https://www.youtube.com/embed/mXMOfxtgNx8",
+      "objectives": [
+        "أيام الأسبوع بالترتيب",
+        "التحدث عن الأنشطة في كل يوم",
+        "استخدام حروف الجر مع الأيام"
+      ]
+    },
+    {
+      "id": 7,
+      "course_id": 1,
+      "title": "Months and Seasons - الشهور والفصول",
+      "description": "استكشاف شهور السنة وفصولها الأربعة",
+      "duration": "19 دقيقة",
+      "level": "beginner",
+      "order": 7,
+      "video_url": "https://www.youtube.com/embed/Fe9bnYRzFvk",
+      "objectives": [
+        "شهور السنة بالترتيب",
+        "الفصول الأربعة وخصائصها",
+        "التحدث عن المناسبات والأعياد"
+      ]
+    },
+    {
+      "id": 8,
+      "course_id": 1,
+      "title": "Common Verbs - الأفعال الشائعة",
+      "description": "تعلم أهم الأفعال المستخدمة في الحياة اليومية",
+      "duration": "25 دقيقة",
+      "level": "beginner",
+      "order": 8,
+      "video_url": "https://www.youtube.com/embed/UqbdiwQqNX0",
+      "objectives": [
+        "الأفعال الأساسية (يأكل، ينام، يلعب)",
+        "تصريف الأفعال البسيط",
+        "استخدام الأفعال في جمل"
+      ]
+    },
+    {
+      "id": 9,
+      "course_id": 1,
+      "title": "Food and Drinks - الطعام والشراب",
+      "description": "تعلم أسماء الأطعمة والمشروبات المختلفة",
+      "duration": "21 دقيقة",
+      "level": "beginner",
+      "order": 9,
+      "video_url": "https://www.youtube.com/embed/pU0yujV6_hQ",
+      "objectives": [
+        "أنواع الطعام الأساسية",
+        "المشروبات المختلفة",
+        "التعبير عن التفضيلات الغذائية"
+      ]
+    },
+    {
+      "id": 10,
+      "course_id": 1,
+      "title": "Clothing and Accessories - الملابس والإكسسوارات",
+      "description": "تعلم أسماء الملابس والإكسسوارات المختلفة",
+      "duration": "17 دقيقة",
+      "level": "beginner",
+      "order": 10,
+      "video_url": "https://www.youtube.com/embed/1x-jqmOYGwU",
+      "objectives": [
+        "أنواع الملابس المختلفة",
+        "الإكسسوارات والأحذية",
+        "وصف الملابس والألوان"
+      ]
+    },
+    {
+      "id": 11,
+      "course_id": 2,
+      "title": "Business Vocabulary Essentials - أساسيات المفردات التجارية",
+      "description": "تعلم أهم المصطلحات التجارية والمهنية",
+      "duration": "30 دقيقة",
+      "level": "intermediate",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/qeTK7arSVuM",
+      "objectives": [
+        "المصطلحات التجارية الأساسية",
+        "مفردات بيئة العمل",
+        "المناصب والوظائف"
+      ]
+    },
+    {
+      "id": 12,
+      "course_id": 2,
+      "title": "Email Writing - كتابة الإيميلات المهنية",
+      "description": "تعلم كتابة إيميلات مهنية فعالة وواضحة",
+      "duration": "28 دقيقة",
+      "level": "intermediate",
+      "order": 2,
+      "video_url": "https://www.youtube.com/embed/3dGlgJIzg4A",
+      "objectives": [
+        "هيكل الإيميل المهني",
+        "العبارات الرسمية المهذبة",
+        "أنواع الإيميلات المختلفة"
+      ]
+    },
+    {
+      "id": 13,
+      "course_id": 2,
+      "title": "Meeting English - إنجليزية الاجتماعات",
+      "description": "تعلم التعبيرات والمفردات المستخدمة في الاجتماعات",
+      "duration": "35 دقيقة",
+      "level": "intermediate",
+      "order": 3,
+      "video_url": "https://www.youtube.com/embed/W0xLy5YLQrY",
+      "objectives": [
+        "آداب الاجتماعات",
+        "التعبير عن الآراء",
+        "طرح الأسئلة والاقتراحات"
+      ]
+    },
+    {
+      "id": 14,
+      "course_id": 2,
+      "title": "Presentation Skills - مهارات العرض",
+      "description": "تعلم كيفية تقديم عروض تقديمية مؤثرة بالإنجليزية",
+      "duration": "32 دقيقة",
+      "level": "intermediate",
+      "order": 4,
+      "video_url": "https://www.youtube.com/embed/yoD8RMq2OkU",
+      "objectives": [
+        "هيكل العرض التقديمي",
+        "التفاعل مع الجمهور",
+        "استخدام الوسائل البصرية"
+      ]
+    },
+    {
+      "id": 15,
+      "course_id": 2,
+      "title": "Negotiation Tactics - تكتيكات التفاوض",
+      "description": "تعلم فن التفاوض والإقناع في بيئة العمل",
+      "duration": "40 دقيقة",
+      "level": "intermediate",
+      "order": 5,
+      "video_url": "https://www.youtube.com/embed/MN4W8XLH8DQ",
+      "objectives": [
+        "استراتيجيات التفاوض",
+        "التعبير عن المطالب بلباقة",
+        "الوصول لحلول مربحة للجميع"
+      ]
+    },
+    {
+      "id": 16,
+      "course_id": 3,
+      "title": "Advanced Grammar Rules - قواعد النحو المتقدمة",
+      "description": "إتقان القواعد النحوية المعقدة والمتقدمة",
+      "duration": "45 دقيقة",
+      "level": "advanced",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/WBupia9oidU",
+      "objectives": [
+        "الجمل المركبة والمعقدة",
+        "استخدام الأزمنة المتقدمة",
+        "القواعد الاستثنائية"
+      ]
+    },
+    {
+      "id": 17,
+      "course_id": 3,
+      "title": "Academic Writing - الكتابة الأكاديمية",
+      "description": "تعلم كتابة المقالات والأبحاث الأكاديمية",
+      "duration": "50 دقيقة",
+      "level": "advanced",
+      "order": 2,
+      "video_url": "https://www.youtube.com/embed/AIpBG5akBTQ",
+      "objectives": [
+        "هيكل البحث الأكاديمي",
+        "الاستشهاد والمراجع",
+        "الكتابة الموضوعية والتحليلية"
+      ]
+    },
+    {
+      "id": 18,
+      "course_id": 4,
+      "title": "At the Airport - في المطار",
+      "description": "تعلم العبارات والمفردات المستخدمة في المطار",
+      "duration": "25 دقيقة",
+      "level": "intermediate",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/6Nf90jVbBXI",
+      "objectives": [
+        "إجراءات السفر",
+        "التعامل مع الأمان",
+        "حجز التذاكر وتأكيد الحجوزات"
+      ]
+    },
+    {
+      "id": 19,
+      "course_id": 4,
+      "title": "Hotel Check-in - تسجيل الوصول للفندق",
+      "description": "تعلم كيفية التعامل مع موظفي الفنادق",
+      "duration": "22 دقيقة",
+      "level": "intermediate",
+      "order": 2,
+      "video_url": "https://www.youtube.com/embed/kqWUWA3nSRE",
+      "objectives": [
+        "حجز الغرف",
+        "طلب الخدمات الإضافية",
+        "الشكاوى والاستفسارات"
+      ]
+    },
+    {
+      "id": 20,
+      "course_id": 5,
+      "title": "Medical Terminology Basics - أساسيات المصطلحات الطبية",
+      "description": "تعلم أهم المصطلحات الطبية باللغة الإنجليزية",
+      "duration": "35 دقيقة",
+      "level": "intermediate", 
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/MHPwNa5w7xI",
+      "objectives": [
+        "أجهزة الجسم البشري",
+        "الأمراض الشائعة",
+        "الأدوات الطبية"
+      ]
+    },
+    {
+      "id": 21,
+      "course_id": 1,
+      "title": "Animals and Pets - الحيوانات والحيوانات الأليفة",
+      "description": "تعلم أسماء الحيوانات المختلفة وأصواتها",
+      "duration": "19 دقيقة",
+      "level": "beginner",
+      "order": 11,
+      "video_url": "https://www.youtube.com/embed/pU0yujV6_hQ",
+      "objectives": [
+        "الحيوانات البرية والأليفة",
+        "أصوات الحيوانات",
+        "العناية بالحيوانات الأليفة"
+      ]
+    },
+    {
+      "id": 22,
+      "course_id": 1,
+      "title": "Body Parts - أجزاء الجسم",
+      "description": "تعلم أسماء أجزاء الجسم المختلفة",
+      "duration": "16 دقيقة",
+      "level": "beginner",
+      "order": 12,
+      "video_url": "https://www.youtube.com/embed/3dGlgJIzg4A",
+      "objectives": [
+        "أجزاء الوجه والرأس",
+        "أجزاء الجسم الرئيسية",
+        "الحواس الخمس"
+      ]
+    },
+    {
+      "id": 23,
+      "course_id": 1,
+      "title": "Weather and Climate - الطقس والمناخ",
+      "description": "تعلم كيفية التحدث عن الطقس والمناخ",
+      "duration": "20 دقيقة",
+      "level": "beginner",
+      "order": 13,
+      "video_url": "https://www.youtube.com/embed/tkJbXqLUkQs",
+      "objectives": [
+        "حالات الطقس المختلفة",
+        "درجات الحرارة",
+        "التنبؤ بالطقس"
+      ]
+    },
+    {
+      "id": 24,
+      "course_id": 1,
+      "title": "Transportation - وسائل النقل",
+      "description": "تعلم أسماء وسائل النقل المختلفة",
+      "duration": "18 دقيقة",
+      "level": "beginner",
+      "order": 14,
+      "video_url": "https://www.youtube.com/embed/FKItHBMR6p0",
+      "objectives": [
+        "وسائل النقل البرية والبحرية والجوية",
+        "استخدام وسائل النقل العامة",
+        "الاتجاهات والطرق"
+      ]
+    },
+    {
+      "id": 25,
+      "course_id": 1,
+      "title": "At the Restaurant - في المطعم",
+      "description": "تعلم كيفية الطلب في المطعم والتعامل مع النادل",
+      "duration": "24 دقيقة",
+      "level": "beginner",
+      "order": 15,
+      "video_url": "https://www.youtube.com/embed/mXMOfxtgNx8",
+      "objectives": [
+        "قراءة قائمة الطعام",
+        "الطلب من النادل",
+        "دفع الفاتورة والبقشيش"
+      ]
+    },
+    {
+      "id": 26,
+      "course_id": 9,
+      "title": "Daily Conversations - المحادثات اليومية",
+      "description": "ممارسة المحادثات العادية في الحياة اليومية",
+      "duration": "28 دقيقة",
+      "level": "intermediate",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/P3JMIq7rBEQ",
+      "objectives": [
+        "التحدث مع الأصدقاء",
+        "المحادثات في العمل",
+        "التسوق والشراء"
+      ]
+    },
+    {
+      "id": 27,
+      "course_id": 9,
+      "title": "Expressing Opinions - التعبير عن الآراء",
+      "description": "تعلم كيفية التعبير عن الآراء والأفكار بوضوح",
+      "duration": "26 دقيقة",
+      "level": "intermediate",
+      "order": 2,
+      "video_url": "https://www.youtube.com/embed/8irSFvoyLHQ",
+      "objectives": [
+        "التعبير عن الاتفاق والاختلاف",
+        "تقديم الحجج والأدلة",
+        "الاستماع للآراء المختلفة"
+      ]
+    },
+    {
+      "id": 28,
+      "course_id": 10,
+      "title": "Shakespeare's Greatest Works - أعظم أعمال شكسبير",
+      "description": "استكشاف روائع الأدب الإنجليزي مع شكسبير",
+      "duration": "42 دقيقة",
+      "level": "advanced",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/msOdT_wwOUY",
+      "objectives": [
+        "فهم الأسلوب الشكسبيري",
+        "تحليل المسرحيات الشهيرة",
+        "اللغة الإنجليزية القديمة"
+      ]
+    },
+    {
+      "id": 29,
+      "course_id": 11,
+      "title": "Programming Vocabulary - مفردات البرمجة",
+      "description": "تعلم المصطلحات التقنية في البرمجة",
+      "duration": "33 دقيقة",
+      "level": "intermediate",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/kqtD5dpn9C8",
+      "objectives": [
+        "لغات البرمجة المختلفة",
+        "مفاهيم البرمجة الأساسية",
+        "أدوات التطوير"
+      ]
+    },
+    {
+      "id": 30,
+      "course_id": 12,
+      "title": "Customer Service Excellence - التميز في خدمة العملاء",
+      "description": "تطوير مهارات خدمة العملاء باللغة الإنجليزية",
+      "duration": "29 دقيقة",
+      "level": "intermediate",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/5Dj8nBsQVQo",
+      "objectives": [
+        "التعامل مع الشكاوى",
+        "تقديم الحلول",
+        "بناء علاقات إيجابية"
+      ]
+    },
+    {
+      "id": 31,
+      "course_id": 13,
+      "title": "Advanced Presentation Skills - مهارات العرض المتقدمة",
+      "description": "إتقان فن العرض والتقديم باللغة الإنجليزية للمحترفين",
+      "duration": "45 دقيقة",
+      "level": "advanced",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/AIpBG5akBTQ",
+      "objectives": [
+        "بناء العروض المؤثرة",
+        "التحكم في القلق",
+        "التفاعل مع الجمهور",
+        "استخدام التقنيات البصرية"
+      ]
+    },
+    {
+      "id": 32,
+      "course_id": 13,
+      "title": "Persuasive Communication - التواصل الإقناعي",
+      "description": "تعلم تقنيات الإقناع والتأثير في الآخرين",
+      "duration": "38 دقيقة",
+      "level": "advanced",
+      "order": 2,
+      "video_url": "https://www.youtube.com/embed/v5c9Wvy-z7g",
+      "objectives": [
+        "تقنيات الإقناع النفسية",
+        "بناء الحجج القوية",
+        "قراءة لغة الجسد",
+        "التأثير الإيجابي"
+      ]
+    },
+    {
+      "id": 33,
+      "course_id": 14,
+      "title": "Academic Writing Fundamentals - أساسيات الكتابة الأكاديمية",
+      "description": "الأسس العلمية للكتابة الأكاديمية والبحثية",
+      "duration": "42 دقيقة",
+      "level": "advanced",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/WBupia9oidU",
+      "objectives": [
+        "هيكلة البحث العلمي",
+        "الاستشهاد والمراجع",
+        "الكتابة النقدية",
+        "التحليل المنطقي"
+      ]
+    },
+    {
+      "id": 34,
+      "course_id": 15,
+      "title": "Discussing Current Events - مناقشة الأحداث الجارية",
+      "description": "التحدث عن الأخبار والأحداث الحالية بطلاقة",
+      "duration": "32 دقيقة",
+      "level": "intermediate",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/8irSFvoyLHQ",
+      "objectives": [
+        "مناقشة الأخبار",
+        "التعبير عن الآراء السياسية",
+        "تحليل الأحداث",
+        "المفردات الإعلامية"
+      ]
+    },
+    {
+      "id": 35,
+      "course_id": 16,
+      "title": "Complex Sentence Structures - التراكيب النحوية المعقدة",
+      "description": "إتقان القواعد المتقدمة وتركيب الجمل المعقدة",
+      "duration": "40 دقيقة",
+      "level": "advanced",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/WBupia9oidU",
+      "objectives": [
+        "الجمل الشرطية المعقدة",
+        "التراكيب النحوية المتقدمة",
+        "الربط بين الأفكار",
+        "الأسلوب الأكاديمي"
+      ]
+    },
+    {
+      "id": 36,
+      "course_id": 17,
+      "title": "Speed Reading Techniques - تقنيات القراءة السريعة",
+      "description": "تطوير مهارات القراءة السريعة مع الحفاظ على الفهم",
+      "duration": "35 دقيقة",
+      "level": "intermediate",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/msOdT_wwOUY",
+      "objectives": [
+        "تقنيات القراءة السريعة",
+        "تحسين التركيز",
+        "استخراج المعلومات المهمة",
+        "إدارة الوقت"
+      ]
+    },
+    {
+      "id": 37,
+      "course_id": 18,
+      "title": "International Business Negotiation - التفاوض التجاري الدولي",
+      "description": "استراتيجيات التفاوض في البيئة التجارية العالمية",
+      "duration": "50 دقيقة",
+      "level": "advanced",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/MN4W8XLH8DQ",
+      "objectives": [
+        "استراتيجيات التفاوض الدولية",
+        "الثقافات التجارية المختلفة",
+        "إدارة الصراع",
+        "إتمام الصفقات"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "course_id": 1,
+      "title": "Welcome to English - أهلاً بك في عالم الإنجليزية",
+      "description": "أول خطوة في رحلة تعلم اللغة الإنجليزية",
+      "duration": "15 دقيقة",
+      "level": "beginner",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/VQPdUBUvRFU",
+      "objectives": [
+        "التعرف على الأبجدية الإنجليزية",
+        "تعلم التحيات الأساسية", 
+        "فهم أهمية تعلم الإنجليزية"
+      ]
+    },
+    {
+      "id": 2,
+      "course_id": 1,
+      "title": "Greetings and Introductions - التحيات والتعارف",
+      "description": "تعلم كيفية التحية والتعريف بالنفس",
+      "duration": "20 دقيقة",
+      "level": "beginner",
+      "order": 2,
+      "video_url": "https://www.youtube.com/embed/8irSFvoyLHQ",
+      "objectives": [
+        "أساليب التحية المختلفة",
+        "التعريف بالنفس بطريقة مهذبة",
+        "السؤال عن الأسماء والأحوال"
+      ]
+    },
+    {
+      "id": 3,
+      "course_id": 1,
+      "title": "Numbers and Counting - الأرقام والعد",
+      "description": "تعلم الأرقام من 1 إلى 100 واستخداماتها",
+      "duration": "18 دقيقة",
+      "level": "beginner",
+      "order": 3,
+      "video_url": "https://www.youtube.com/embed/DR-cfDsHCGA",
+      "objectives": [
+        "الأرقام من 1 إلى 20",
+        "الأرقام العشرية",
+        "استخدام الأرقام في الحياة اليومية"
+      ]
+    },
+    {
+      "id": 4,
+      "course_id": 1,
+      "title": "Colors and Shapes - الألوان والأشكال",
+      "description": "استكشاف عالم الألوان والأشكال بالإنجليزية",
+      "duration": "16 دقيقة",
+      "level": "beginner",
+      "order": 4,
+      "video_url": "https://www.youtube.com/embed/tkJbXqLUkQs",
+      "objectives": [
+        "الألوان الأساسية والثانوية",
+        "الأشكال الهندسية البسيطة",
+        "وصف الأشياء بألوانها وأشكالها"
+      ]
+    },
+    {
+      "id": 5,
+      "course_id": 1,
+      "title": "Family Members - أفراد العائلة",
+      "description": "تعلم أسماء أفراد العائلة والعلاقات الأسرية",
+      "duration": "22 دقيقة",
+      "level": "beginner",
+      "order": 5,
+      "video_url": "https://www.youtube.com/embed/FKItHBMR6p0",
+      "objectives": [
+        "أسماء أفراد العائلة القريبين",
+        "العلاقات الأسرية المختلفة",
+        "التحدث عن العائلة"
+      ]
+    },
+    {
+      "id": 6,
+      "course_id": 1,
+      "title": "Days of the Week - أيام الأسبوع",
+      "description": "تعلم أيام الأسبوع والتحدث عن الأنشطة اليومية",
+      "duration": "14 دقيقة",
+      "level": "beginner",
+      "order": 6,
+      "video_url": "https://www.youtube.com/embed/mXMOfxtgNx8",
+      "objectives": [
+        "أيام الأسبوع بالترتيب",
+        "التحدث عن الأنشطة في كل يوم",
+        "استخدام حروف الجر مع الأيام"
+      ]
+    },
+    {
+      "id": 7,
+      "course_id": 1,
+      "title": "Months and Seasons - الشهور والفصول",
+      "description": "استكشاف شهور السنة وفصولها الأربعة",
+      "duration": "19 دقيقة",
+      "level": "beginner",
+      "order": 7,
+      "video_url": "https://www.youtube.com/embed/Fe9bnYRzFvk",
+      "objectives": [
+        "شهور السنة بالترتيب",
+        "الفصول الأربعة وخصائصها",
+        "التحدث عن المناسبات والأعياد"
+      ]
+    },
+    {
+      "id": 8,
+      "course_id": 1,
+      "title": "Common Verbs - الأفعال الشائعة",
+      "description": "تعلم أهم الأفعال المستخدمة في الحياة اليومية",
+      "duration": "25 دقيقة",
+      "level": "beginner",
+      "order": 8,
+      "video_url": "https://www.youtube.com/embed/UqbdiwQqNX0",
+      "objectives": [
+        "الأفعال الأساسية (يأكل، ينام، يلعب)",
+        "تصريف الأفعال البسيط",
+        "استخدام الأفعال في جمل"
+      ]
+    },
+    {
+      "id": 9,
+      "course_id": 1,
+      "title": "Food and Drinks - الطعام والشراب",
+      "description": "تعلم أسماء الأطعمة والمشروبات المختلفة",
+      "duration": "21 دقيقة",
+      "level": "beginner",
+      "order": 9,
+      "video_url": "https://www.youtube.com/embed/pU0yujV6_hQ",
+      "objectives": [
+        "أنواع الطعام الأساسية",
+        "المشروبات المختلفة",
+        "التعبير عن التفضيلات الغذائية"
+      ]
+    },
+    {
+      "id": 10,
+      "course_id": 1,
+      "title": "Clothing and Accessories - الملابس والإكسسوارات",
+      "description": "تعلم أسماء الملابس والإكسسوارات المختلفة",
+      "duration": "17 دقيقة",
+      "level": "beginner",
+      "order": 10,
+      "video_url": "https://www.youtube.com/embed/1x-jqmOYGwU",
+      "objectives": [
+        "أنواع الملابس المختلفة",
+        "الإكسسوارات والأحذية",
+        "وصف الملابس والألوان"
+      ]
+    },
+    {
+      "id": 11,
+      "course_id": 2,
+      "title": "Business Vocabulary Essentials - أساسيات المفردات التجارية",
+      "description": "تعلم أهم المصطلحات التجارية والمهنية",
+      "duration": "30 دقيقة",
+      "level": "intermediate",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/qeTK7arSVuM",
+      "objectives": [
+        "المصطلحات التجارية الأساسية",
+        "مفردات بيئة العمل",
+        "المناصب والوظائف"
+      ]
+    },
+    {
+      "id": 12,
+      "course_id": 2,
+      "title": "Email Writing - كتابة الإيميلات المهنية",
+      "description": "تعلم كتابة إيميلات مهنية فعالة وواضحة",
+      "duration": "28 دقيقة",
+      "level": "intermediate",
+      "order": 2,
+      "video_url": "https://www.youtube.com/embed/3dGlgJIzg4A",
+      "objectives": [
+        "هيكل الإيميل المهني",
+        "العبارات الرسمية المهذبة",
+        "أنواع الإيميلات المختلفة"
+      ]
+    },
+    {
+      "id": 13,
+      "course_id": 2,
+      "title": "Meeting English - إنجليزية الاجتماعات",
+      "description": "تعلم التعبيرات والمفردات المستخدمة في الاجتماعات",
+      "duration": "35 دقيقة",
+      "level": "intermediate",
+      "order": 3,
+      "video_url": "https://www.youtube.com/embed/W0xLy5YLQrY",
+      "objectives": [
+        "آداب الاجتماعات",
+        "التعبير عن الآراء",
+        "طرح الأسئلة والاقتراحات"
+      ]
+    },
+    {
+      "id": 14,
+      "course_id": 2,
+      "title": "Presentation Skills - مهارات العرض",
+      "description": "تعلم كيفية تقديم عروض تقديمية مؤثرة بالإنجليزية",
+      "duration": "32 دقيقة",
+      "level": "intermediate",
+      "order": 4,
+      "video_url": "https://www.youtube.com/embed/yoD8RMq2OkU",
+      "objectives": [
+        "هيكل العرض التقديمي",
+        "التفاعل مع الجمهور",
+        "استخدام الوسائل البصرية"
+      ]
+    },
+    {
+      "id": 15,
+      "course_id": 2,
+      "title": "Negotiation Tactics - تكتيكات التفاوض",
+      "description": "تعلم فن التفاوض والإقناع في بيئة العمل",
+      "duration": "40 دقيقة",
+      "level": "intermediate",
+      "order": 5,
+      "video_url": "https://www.youtube.com/embed/MN4W8XLH8DQ",
+      "objectives": [
+        "استراتيجيات التفاوض",
+        "التعبير عن المطالب بلباقة",
+        "الوصول لحلول مربحة للجميع"
+      ]
+    },
+    {
+      "id": 16,
+      "course_id": 3,
+      "title": "Advanced Grammar Rules - قواعد النحو المتقدمة",
+      "description": "إتقان القواعد النحوية المعقدة والمتقدمة",
+      "duration": "45 دقيقة",
+      "level": "advanced",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/WBupia9oidU",
+      "objectives": [
+        "الجمل المركبة والمعقدة",
+        "استخدام الأزمنة المتقدمة",
+        "القواعد الاستثنائية"
+      ]
+    },
+    {
+      "id": 17,
+      "course_id": 3,
+      "title": "Academic Writing - الكتابة الأكاديمية",
+      "description": "تعلم كتابة المقالات والأبحاث الأكاديمية",
+      "duration": "50 دقيقة",
+      "level": "advanced",
+      "order": 2,
+      "video_url": "https://www.youtube.com/embed/AIpBG5akBTQ",
+      "objectives": [
+        "هيكل البحث الأكاديمي",
+        "الاستشهاد والمراجع",
+        "الكتابة الموضوعية والتحليلية"
+      ]
+    },
+    {
+      "id": 18,
+      "course_id": 4,
+      "title": "At the Airport - في المطار",
+      "description": "تعلم العبارات والمفردات المستخدمة في المطار",
+      "duration": "25 دقيقة",
+      "level": "intermediate",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/6Nf90jVbBXI",
+      "objectives": [
+        "إجراءات السفر",
+        "التعامل مع الأمان",
+        "حجز التذاكر وتأكيد الحجوزات"
+      ]
+    },
+    {
+      "id": 19,
+      "course_id": 4,
+      "title": "Hotel Check-in - تسجيل الوصول للفندق",
+      "description": "تعلم كيفية التعامل مع موظفي الفنادق",
+      "duration": "22 دقيقة",
+      "level": "intermediate",
+      "order": 2,
+      "video_url": "https://www.youtube.com/embed/kqWUWA3nSRE",
+      "objectives": [
+        "حجز الغرف",
+        "طلب الخدمات الإضافية",
+        "الشكاوى والاستفسارات"
+      ]
+    },
+    {
+      "id": 20,
+      "course_id": 5,
+      "title": "Medical Terminology Basics - أساسيات المصطلحات الطبية",
+      "description": "تعلم أهم المصطلحات الطبية باللغة الإنجليزية",
+      "duration": "35 دقيقة",
+      "level": "intermediate", 
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/MHPwNa5w7xI",
+      "objectives": [
+        "أجهزة الجسم البشري",
+        "الأمراض الشائعة",
+        "الأدوات الطبية"
+      ]
+    },
+    {
+      "id": 21,
+      "course_id": 1,
+      "title": "Animals and Pets - الحيوانات والحيوانات الأليفة",
+      "description": "تعلم أسماء الحيوانات المختلفة وأصواتها",
+      "duration": "19 دقيقة",
+      "level": "beginner",
+      "order": 11,
+      "video_url": "https://www.youtube.com/embed/pU0yujV6_hQ",
+      "objectives": [
+        "الحيوانات البرية والأليفة",
+        "أصوات الحيوانات",
+        "العناية بالحيوانات الأليفة"
+      ]
+    },
+    {
+      "id": 22,
+      "course_id": 1,
+      "title": "Body Parts - أجزاء الجسم",
+      "description": "تعلم أسماء أجزاء الجسم المختلفة",
+      "duration": "16 دقيقة",
+      "level": "beginner",
+      "order": 12,
+      "video_url": "https://www.youtube.com/embed/3dGlgJIzg4A",
+      "objectives": [
+        "أجزاء الوجه والرأس",
+        "أجزاء الجسم الرئيسية",
+        "الحواس الخمس"
+      ]
+    },
+    {
+      "id": 23,
+      "course_id": 1,
+      "title": "Weather and Climate - الطقس والمناخ",
+      "description": "تعلم كيفية التحدث عن الطقس والمناخ",
+      "duration": "20 دقيقة",
+      "level": "beginner",
+      "order": 13,
+      "video_url": "https://www.youtube.com/embed/tkJbXqLUkQs",
+      "objectives": [
+        "حالات الطقس المختلفة",
+        "درجات الحرارة",
+        "التنبؤ بالطقس"
+      ]
+    },
+    {
+      "id": 24,
+      "course_id": 1,
+      "title": "Transportation - وسائل النقل",
+      "description": "تعلم أسماء وسائل النقل المختلفة",
+      "duration": "18 دقيقة",
+      "level": "beginner",
+      "order": 14,
+      "video_url": "https://www.youtube.com/embed/FKItHBMR6p0",
+      "objectives": [
+        "وسائل النقل البرية والبحرية والجوية",
+        "استخدام وسائل النقل العامة",
+        "الاتجاهات والطرق"
+      ]
+    },
+    {
+      "id": 25,
+      "course_id": 1,
+      "title": "At the Restaurant - في المطعم",
+      "description": "تعلم كيفية الطلب في المطعم والتعامل مع النادل",
+      "duration": "24 دقيقة",
+      "level": "beginner",
+      "order": 15,
+      "video_url": "https://www.youtube.com/embed/mXMOfxtgNx8",
+      "objectives": [
+        "قراءة قائمة الطعام",
+        "الطلب من النادل",
+        "دفع الفاتورة والبقشيش"
+      ]
+    },
+    {
+      "id": 26,
+      "course_id": 9,
+      "title": "Daily Conversations - المحادثات اليومية",
+      "description": "ممارسة المحادثات العادية في الحياة اليومية",
+      "duration": "28 دقيقة",
+      "level": "intermediate",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/P3JMIq7rBEQ",
+      "objectives": [
+        "التحدث مع الأصدقاء",
+        "المحادثات في العمل",
+        "التسوق والشراء"
+      ]
+    },
+    {
+      "id": 27,
+      "course_id": 9,
+      "title": "Expressing Opinions - التعبير عن الآراء",
+      "description": "تعلم كيفية التعبير عن الآراء والأفكار بوضوح",
+      "duration": "26 دقيقة",
+      "level": "intermediate",
+      "order": 2,
+      "video_url": "https://www.youtube.com/embed/8irSFvoyLHQ",
+      "objectives": [
+        "التعبير عن الاتفاق والاختلاف",
+        "تقديم الحجج والأدلة",
+        "الاستماع للآراء المختلفة"
+      ]
+    },
+    {
+      "id": 28,
+      "course_id": 10,
+      "title": "Shakespeare's Greatest Works - أعظم أعمال شكسبير",
+      "description": "استكشاف روائع الأدب الإنجليزي مع شكسبير",
+      "duration": "42 دقيقة",
+      "level": "advanced",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/msOdT_wwOUY",
+      "objectives": [
+        "فهم الأسلوب الشكسبيري",
+        "تحليل المسرحيات الشهيرة",
+        "اللغة الإنجليزية القديمة"
+      ]
+    },
+    {
+      "id": 29,
+      "course_id": 11,
+      "title": "Programming Vocabulary - مفردات البرمجة",
+      "description": "تعلم المصطلحات التقنية في البرمجة",
+      "duration": "33 دقيقة",
+      "level": "intermediate",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/kqtD5dpn9C8",
+      "objectives": [
+        "لغات البرمجة المختلفة",
+        "مفاهيم البرمجة الأساسية",
+        "أدوات التطوير"
+      ]
+    },
+    {
+      "id": 30,
+      "course_id": 12,
+      "title": "Customer Service Excellence - التميز في خدمة العملاء",
+      "description": "تطوير مهارات خدمة العملاء باللغة الإنجليزية",
+      "duration": "29 دقيقة",
+      "level": "intermediate",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/5Dj8nBsQVQo",
+      "objectives": [
+        "التعامل مع الشكاوى",
+        "تقديم الحلول",
+        "بناء علاقات إيجابية"
+      ]
+    },
+    {
+      "id": 31,
+      "course_id": 13,
+      "title": "Advanced Presentation Skills - مهارات العرض المتقدمة",
+      "description": "إتقان فن العرض والتقديم باللغة الإنجليزية للمحترفين",
+      "duration": "45 دقيقة",
+      "level": "advanced",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/AIpBG5akBTQ",
+      "objectives": [
+        "بناء العروض المؤثرة",
+        "التحكم في القلق",
+        "التفاعل مع الجمهور",
+        "استخدام التقنيات البصرية"
+      ]
+    },
+    {
+      "id": 32,
+      "course_id": 13,
+      "title": "Persuasive Communication - التواصل الإقناعي",
+      "description": "تعلم تقنيات الإقناع والتأثير في الآخرين",
+      "duration": "38 دقيقة",
+      "level": "advanced",
+      "order": 2,
+      "video_url": "https://www.youtube.com/embed/v5c9Wvy-z7g",
+      "objectives": [
+        "تقنيات الإقناع النفسية",
+        "بناء الحجج القوية",
+        "قراءة لغة الجسد",
+        "التأثير الإيجابي"
+      ]
+    },
+    {
+      "id": 33,
+      "course_id": 14,
+      "title": "Academic Writing Fundamentals - أساسيات الكتابة الأكاديمية",
+      "description": "الأسس العلمية للكتابة الأكاديمية والبحثية",
+      "duration": "42 دقيقة",
+      "level": "advanced",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/WBupia9oidU",
+      "objectives": [
+        "هيكلة البحث العلمي",
+        "الاستشهاد والمراجع",
+        "الكتابة النقدية",
+        "التحليل المنطقي"
+      ]
+    },
+    {
+      "id": 34,
+      "course_id": 15,
+      "title": "Discussing Current Events - مناقشة الأحداث الجارية",
+      "description": "التحدث عن الأخبار والأحداث الحالية بطلاقة",
+      "duration": "32 دقيقة",
+      "level": "intermediate",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/8irSFvoyLHQ",
+      "objectives": [
+        "مناقشة الأخبار",
+        "التعبير عن الآراء السياسية",
+        "تحليل الأحداث",
+        "المفردات الإعلامية"
+      ]
+    },
+    {
+      "id": 35,
+      "course_id": 16,
+      "title": "Complex Sentence Structures - التراكيب النحوية المعقدة",
+      "description": "إتقان القواعد المتقدمة وتركيب الجمل المعقدة",
+      "duration": "40 دقيقة",
+      "level": "advanced",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/WBupia9oidU",
+      "objectives": [
+        "الجمل الشرطية المعقدة",
+        "التراكيب النحوية المتقدمة",
+        "الربط بين الأفكار",
+        "الأسلوب الأكاديمي"
+      ]
+    },
+    {
+      "id": 36,
+      "course_id": 17,
+      "title": "Speed Reading Techniques - تقنيات القراءة السريعة",
+      "description": "تطوير مهارات القراءة السريعة مع الحفاظ على الفهم",
+      "duration": "35 دقيقة",
+      "level": "intermediate",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/msOdT_wwOUY",
+      "objectives": [
+        "تقنيات القراءة السريعة",
+        "تحسين التركيز",
+        "استخراج المعلومات المهمة",
+        "إدارة الوقت"
+      ]
+    },
+    {
+      "id": 37,
+      "course_id": 18,
+      "title": "International Business Negotiation - التفاوض التجاري الدولي",
+      "description": "استراتيجيات التفاوض في البيئة التجارية العالمية",
+      "duration": "50 دقيقة",
+      "level": "advanced",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/MN4W8XLH8DQ",
+      "objectives": [
+        "استراتيجيات التفاوض الدولية",
+        "الثقافات التجارية المختلفة",
+        "إدارة الصراع",
+        "إتمام الصفقات"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "course_id": 1,
+      "title": "Welcome to English - أهلاً بك في عالم الإنجليزية",
+      "description": "أول خطوة في رحلة تعلم اللغة الإنجليزية",
+      "duration": "15 دقيقة",
+      "level": "beginner",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/VQPdUBUvRFU",
+      "objectives": [
+        "التعرف على الأبجدية الإنجليزية",
+        "تعلم التحيات الأساسية", 
+        "فهم أهمية تعلم الإنجليزية"
+      ]
+    },
+    {
+      "id": 2,
+      "course_id": 1,
+      "title": "Greetings and Introductions - التحيات والتعارف",
+      "description": "تعلم كيفية التحية والتعريف بالنفس",
+      "duration": "20 دقيقة",
+      "level": "beginner",
+      "order": 2,
+      "video_url": "https://www.youtube.com/embed/8irSFvoyLHQ",
+      "objectives": [
+        "أساليب التحية المختلفة",
+        "التعريف بالنفس بطريقة مهذبة",
+        "السؤال عن الأسماء والأحوال"
+      ]
+    },
+    {
+      "id": 3,
+      "course_id": 1,
+      "title": "Numbers and Counting - الأرقام والعد",
+      "description": "تعلم الأرقام من 1 إلى 100 واستخداماتها",
+      "duration": "18 دقيقة",
+      "level": "beginner",
+      "order": 3,
+      "video_url": "https://www.youtube.com/embed/DR-cfDsHCGA",
+      "objectives": [
+        "الأرقام من 1 إلى 20",
+        "الأرقام العشرية",
+        "استخدام الأرقام في الحياة اليومية"
+      ]
+    },
+    {
+      "id": 4,
+      "course_id": 1,
+      "title": "Colors and Shapes - الألوان والأشكال",
+      "description": "استكشاف عالم الألوان والأشكال بالإنجليزية",
+      "duration": "16 دقيقة",
+      "level": "beginner",
+      "order": 4,
+      "video_url": "https://www.youtube.com/embed/tkJbXqLUkQs",
+      "objectives": [
+        "الألوان الأساسية والثانوية",
+        "الأشكال الهندسية البسيطة",
+        "وصف الأشياء بألوانها وأشكالها"
+      ]
+    },
+    {
+      "id": 5,
+      "course_id": 1,
+      "title": "Family Members - أفراد العائلة",
+      "description": "تعلم أسماء أفراد العائلة والعلاقات الأسرية",
+      "duration": "22 دقيقة",
+      "level": "beginner",
+      "order": 5,
+      "video_url": "https://www.youtube.com/embed/FKItHBMR6p0",
+      "objectives": [
+        "أسماء أفراد العائلة القريبين",
+        "العلاقات الأسرية المختلفة",
+        "التحدث عن العائلة"
+      ]
+    },
+    {
+      "id": 6,
+      "course_id": 1,
+      "title": "Days of the Week - أيام الأسبوع",
+      "description": "تعلم أيام الأسبوع والتحدث عن الأنشطة اليومية",
+      "duration": "14 دقيقة",
+      "level": "beginner",
+      "order": 6,
+      "video_url": "https://www.youtube.com/embed/mXMOfxtgNx8",
+      "objectives": [
+        "أيام الأسبوع بالترتيب",
+        "التحدث عن الأنشطة في كل يوم",
+        "استخدام حروف الجر مع الأيام"
+      ]
+    },
+    {
+      "id": 7,
+      "course_id": 1,
+      "title": "Months and Seasons - الشهور والفصول",
+      "description": "استكشاف شهور السنة وفصولها الأربعة",
+      "duration": "19 دقيقة",
+      "level": "beginner",
+      "order": 7,
+      "video_url": "https://www.youtube.com/embed/Fe9bnYRzFvk",
+      "objectives": [
+        "شهور السنة بالترتيب",
+        "الفصول الأربعة وخصائصها",
+        "التحدث عن المناسبات والأعياد"
+      ]
+    },
+    {
+      "id": 8,
+      "course_id": 1,
+      "title": "Common Verbs - الأفعال الشائعة",
+      "description": "تعلم أهم الأفعال المستخدمة في الحياة اليومية",
+      "duration": "25 دقيقة",
+      "level": "beginner",
+      "order": 8,
+      "video_url": "https://www.youtube.com/embed/UqbdiwQqNX0",
+      "objectives": [
+        "الأفعال الأساسية (يأكل، ينام، يلعب)",
+        "تصريف الأفعال البسيط",
+        "استخدام الأفعال في جمل"
+      ]
+    },
+    {
+      "id": 9,
+      "course_id": 1,
+      "title": "Food and Drinks - الطعام والشراب",
+      "description": "تعلم أسماء الأطعمة والمشروبات المختلفة",
+      "duration": "21 دقيقة",
+      "level": "beginner",
+      "order": 9,
+      "video_url": "https://www.youtube.com/embed/pU0yujV6_hQ",
+      "objectives": [
+        "أنواع الطعام الأساسية",
+        "المشروبات المختلفة",
+        "التعبير عن التفضيلات الغذائية"
+      ]
+    },
+    {
+      "id": 10,
+      "course_id": 1,
+      "title": "Clothing and Accessories - الملابس والإكسسوارات",
+      "description": "تعلم أسماء الملابس والإكسسوارات المختلفة",
+      "duration": "17 دقيقة",
+      "level": "beginner",
+      "order": 10,
+      "video_url": "https://www.youtube.com/embed/1x-jqmOYGwU",
+      "objectives": [
+        "أنواع الملابس المختلفة",
+        "الإكسسوارات والأحذية",
+        "وصف الملابس والألوان"
+      ]
+    },
+    {
+      "id": 11,
+      "course_id": 2,
+      "title": "Business Vocabulary Essentials - أساسيات المفردات التجارية",
+      "description": "تعلم أهم المصطلحات التجارية والمهنية",
+      "duration": "30 دقيقة",
+      "level": "intermediate",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/qeTK7arSVuM",
+      "objectives": [
+        "المصطلحات التجارية الأساسية",
+        "مفردات بيئة العمل",
+        "المناصب والوظائف"
+      ]
+    },
+    {
+      "id": 12,
+      "course_id": 2,
+      "title": "Email Writing - كتابة الإيميلات المهنية",
+      "description": "تعلم كتابة إيميلات مهنية فعالة وواضحة",
+      "duration": "28 دقيقة",
+      "level": "intermediate",
+      "order": 2,
+      "video_url": "https://www.youtube.com/embed/3dGlgJIzg4A",
+      "objectives": [
+        "هيكل الإيميل المهني",
+        "العبارات الرسمية المهذبة",
+        "أنواع الإيميلات المختلفة"
+      ]
+    },
+    {
+      "id": 13,
+      "course_id": 2,
+      "title": "Meeting English - إنجليزية الاجتماعات",
+      "description": "تعلم التعبيرات والمفردات المستخدمة في الاجتماعات",
+      "duration": "35 دقيقة",
+      "level": "intermediate",
+      "order": 3,
+      "video_url": "https://www.youtube.com/embed/W0xLy5YLQrY",
+      "objectives": [
+        "آداب الاجتماعات",
+        "التعبير عن الآراء",
+        "طرح الأسئلة والاقتراحات"
+      ]
+    },
+    {
+      "id": 14,
+      "course_id": 2,
+      "title": "Presentation Skills - مهارات العرض",
+      "description": "تعلم كيفية تقديم عروض تقديمية مؤثرة بالإنجليزية",
+      "duration": "32 دقيقة",
+      "level": "intermediate",
+      "order": 4,
+      "video_url": "https://www.youtube.com/embed/yoD8RMq2OkU",
+      "objectives": [
+        "هيكل العرض التقديمي",
+        "التفاعل مع الجمهور",
+        "استخدام الوسائل البصرية"
+      ]
+    },
+    {
+      "id": 15,
+      "course_id": 2,
+      "title": "Negotiation Tactics - تكتيكات التفاوض",
+      "description": "تعلم فن التفاوض والإقناع في بيئة العمل",
+      "duration": "40 دقيقة",
+      "level": "intermediate",
+      "order": 5,
+      "video_url": "https://www.youtube.com/embed/MN4W8XLH8DQ",
+      "objectives": [
+        "استراتيجيات التفاوض",
+        "التعبير عن المطالب بلباقة",
+        "الوصول لحلول مربحة للجميع"
+      ]
+    },
+    {
+      "id": 16,
+      "course_id": 3,
+      "title": "Advanced Grammar Rules - قواعد النحو المتقدمة",
+      "description": "إتقان القواعد النحوية المعقدة والمتقدمة",
+      "duration": "45 دقيقة",
+      "level": "advanced",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/WBupia9oidU",
+      "objectives": [
+        "الجمل المركبة والمعقدة",
+        "استخدام الأزمنة المتقدمة",
+        "القواعد الاستثنائية"
+      ]
+    },
+    {
+      "id": 17,
+      "course_id": 3,
+      "title": "Academic Writing - الكتابة الأكاديمية",
+      "description": "تعلم كتابة المقالات والأبحاث الأكاديمية",
+      "duration": "50 دقيقة",
+      "level": "advanced",
+      "order": 2,
+      "video_url": "https://www.youtube.com/embed/AIpBG5akBTQ",
+      "objectives": [
+        "هيكل البحث الأكاديمي",
+        "الاستشهاد والمراجع",
+        "الكتابة الموضوعية والتحليلية"
+      ]
+    },
+    {
+      "id": 18,
+      "course_id": 4,
+      "title": "At the Airport - في المطار",
+      "description": "تعلم العبارات والمفردات المستخدمة في المطار",
+      "duration": "25 دقيقة",
+      "level": "intermediate",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/6Nf90jVbBXI",
+      "objectives": [
+        "إجراءات السفر",
+        "التعامل مع الأمان",
+        "حجز التذاكر وتأكيد الحجوزات"
+      ]
+    },
+    {
+      "id": 19,
+      "course_id": 4,
+      "title": "Hotel Check-in - تسجيل الوصول للفندق",
+      "description": "تعلم كيفية التعامل مع موظفي الفنادق",
+      "duration": "22 دقيقة",
+      "level": "intermediate",
+      "order": 2,
+      "video_url": "https://www.youtube.com/embed/kqWUWA3nSRE",
+      "objectives": [
+        "حجز الغرف",
+        "طلب الخدمات الإضافية",
+        "الشكاوى والاستفسارات"
+      ]
+    },
+    {
+      "id": 20,
+      "course_id": 5,
+      "title": "Medical Terminology Basics - أساسيات المصطلحات الطبية",
+      "description": "تعلم أهم المصطلحات الطبية باللغة الإنجليزية",
+      "duration": "35 دقيقة",
+      "level": "intermediate", 
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/MHPwNa5w7xI",
+      "objectives": [
+        "أجهزة الجسم البشري",
+        "الأمراض الشائعة",
+        "الأدوات الطبية"
+      ]
+    },
+    {
+      "id": 21,
+      "course_id": 1,
+      "title": "Animals and Pets - الحيوانات والحيوانات الأليفة",
+      "description": "تعلم أسماء الحيوانات المختلفة وأصواتها",
+      "duration": "19 دقيقة",
+      "level": "beginner",
+      "order": 11,
+      "video_url": "https://www.youtube.com/embed/pU0yujV6_hQ",
+      "objectives": [
+        "الحيوانات البرية والأليفة",
+        "أصوات الحيوانات",
+        "العناية بالحيوانات الأليفة"
+      ]
+    },
+    {
+      "id": 22,
+      "course_id": 1,
+      "title": "Body Parts - أجزاء الجسم",
+      "description": "تعلم أسماء أجزاء الجسم المختلفة",
+      "duration": "16 دقيقة",
+      "level": "beginner",
+      "order": 12,
+      "video_url": "https://www.youtube.com/embed/3dGlgJIzg4A",
+      "objectives": [
+        "أجزاء الوجه والرأس",
+        "أجزاء الجسم الرئيسية",
+        "الحواس الخمس"
+      ]
+    },
+    {
+      "id": 23,
+      "course_id": 1,
+      "title": "Weather and Climate - الطقس والمناخ",
+      "description": "تعلم كيفية التحدث عن الطقس والمناخ",
+      "duration": "20 دقيقة",
+      "level": "beginner",
+      "order": 13,
+      "video_url": "https://www.youtube.com/embed/tkJbXqLUkQs",
+      "objectives": [
+        "حالات الطقس المختلفة",
+        "درجات الحرارة",
+        "التنبؤ بالطقس"
+      ]
+    },
+    {
+      "id": 24,
+      "course_id": 1,
+      "title": "Transportation - وسائل النقل",
+      "description": "تعلم أسماء وسائل النقل المختلفة",
+      "duration": "18 دقيقة",
+      "level": "beginner",
+      "order": 14,
+      "video_url": "https://www.youtube.com/embed/FKItHBMR6p0",
+      "objectives": [
+        "وسائل النقل البرية والبحرية والجوية",
+        "استخدام وسائل النقل العامة",
+        "الاتجاهات والطرق"
+      ]
+    },
+    {
+      "id": 25,
+      "course_id": 1,
+      "title": "At the Restaurant - في المطعم",
+      "description": "تعلم كيفية الطلب في المطعم والتعامل مع النادل",
+      "duration": "24 دقيقة",
+      "level": "beginner",
+      "order": 15,
+      "video_url": "https://www.youtube.com/embed/mXMOfxtgNx8",
+      "objectives": [
+        "قراءة قائمة الطعام",
+        "الطلب من النادل",
+        "دفع الفاتورة والبقشيش"
+      ]
+    },
+    {
+      "id": 26,
+      "course_id": 9,
+      "title": "Daily Conversations - المحادثات اليومية",
+      "description": "ممارسة المحادثات العادية في الحياة اليومية",
+      "duration": "28 دقيقة",
+      "level": "intermediate",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/P3JMIq7rBEQ",
+      "objectives": [
+        "التحدث مع الأصدقاء",
+        "المحادثات في العمل",
+        "التسوق والشراء"
+      ]
+    },
+    {
+      "id": 27,
+      "course_id": 9,
+      "title": "Expressing Opinions - التعبير عن الآراء",
+      "description": "تعلم كيفية التعبير عن الآراء والأفكار بوضوح",
+      "duration": "26 دقيقة",
+      "level": "intermediate",
+      "order": 2,
+      "video_url": "https://www.youtube.com/embed/8irSFvoyLHQ",
+      "objectives": [
+        "التعبير عن الاتفاق والاختلاف",
+        "تقديم الحجج والأدلة",
+        "الاستماع للآراء المختلفة"
+      ]
+    },
+    {
+      "id": 28,
+      "course_id": 10,
+      "title": "Shakespeare's Greatest Works - أعظم أعمال شكسبير",
+      "description": "استكشاف روائع الأدب الإنجليزي مع شكسبير",
+      "duration": "42 دقيقة",
+      "level": "advanced",
+      "order": 1,
+      "video_url": "https://www.youtube.com/embed/YHZ5UQJWMnI",
+      "objectives": [
+        "تحليل نصوص شكسبير",
+        "فهم الأدب الكلاسيكي",
+        "تقديم العروض المسرحية"
+      ]
+    },
+    {
+      "id": 19,
+      "paragraph_id": 7,
+      "question": "Books help us _____ new information.",
+      "answer": "learn",
+      "hints": [
+        "اكتساب المعرفة",
+        "يبدأ بـ L",
+        "5 أحرف"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": 20,
+      "paragraph_id": 8,
+      "question": "Playing _____ helps children develop social skills.",
+      "answer": "games",
+      "hints": [
+        "أنشطة ترفيهية",
+        "يبدأ بـ G",
+        "5 أحرف"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": 21,
+      "paragraph_id": 9,
+      "question": "Dogs are known for being _____ to their owners.",
+      "answer": "loyal",
+      "hints": [
+        "مخلص ووفي",
+        "يبدأ بـ L",
+        "5 أحرف"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": 22,
+      "paragraph_id": 10,
+      "question": "We use our _____ to see the world around us.",
+      "answer": "eyes",
+      "hints": [
+        "أعضاء البصر",
+        "يبدأ بـ E",
+        "4 أحرف"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": 23,
+      "paragraph_id": 11,
+      "question": "_____ helps us plan outdoor activities.",
+      "answer": "weather forecast",
+      "hints": [
+        "توقعات الطقس",
+        "كلمتان",
+        "يساعد في التخطيط"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": 24,
+      "paragraph_id": 12,
+      "question": "Always _____ prices before making a purchase.",
+      "answer": "compare",
+      "hints": [
+        "مقارنة الأسعار",
+        "يبدأ بـ C",
+        "7 أحرف"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": 25,
+      "paragraph_id": 1,
+      "question": "Good morning! How _____ you today?",
+      "answer": "are",
+      "hints": [
+        "فعل مساعد",
+        "3 أحرف",
+        "يأتي بعد How"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": 26,
+      "paragraph_id": 2,
+      "question": "The Earth _____ around the Sun.",
+      "answer": "revolves",
+      "hints": [
+        "يدور حول",
+        "يبدأ بـ R",
+        "8 أحرف"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": 27,
+      "paragraph_id": 3,
+      "question": "Drinking water is _____ for good health.",
+      "answer": "essential",
+      "hints": [
+        "ضروري ومهم",
+        "يبدأ بـ E",
+        "9 أحرف"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": 28,
+      "paragraph_id": 4,
+      "question": "Social media _____ have billions of users.",
+      "answer": "platforms",
+      "hints": [
+        "منصات رقمية",
+        "يبدأ بـ P",
+        "9 أحرف"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": 29,
+      "paragraph_id": 5,
+      "question": "A firm _____ is important in business.",
+      "answer": "handshake",
+      "hints": [
+        "مصافحة باليد",
+        "يبدأ بـ H",
+        "9 أحرف"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": 30,
+      "paragraph_id": 6,
+      "question": "Ice _____ when heated.",
+      "answer": "melts",
+      "hints": [
+        "يذوب عند التسخين",
+        "يبدأ بـ M",
+        "5 أحرف"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": 31,
+      "paragraph_id": 7,
+      "question": "E-books are becoming more _____ than printed books.",
+      "answer": "popular",
+      "hints": [
+        "أكثر شيوعاً",
+        "يبدأ بـ P",
+        "7 أحرف"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": 32,
+      "paragraph_id": 8,
+      "question": "Children learn through _____ and exploration.",
+      "answer": "play",
+      "hints": [
+        "اللعب والاستكشاف",
+        "يبدأ بـ P",
+        "4 أحرف"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": 33,
+      "paragraph_id": 9,
+      "question": "Cats are _____ animals that hunt at night.",
+      "answer": "nocturnal",
+      "hints": [
+        "نشط في الليل",
+        "يبدأ بـ N",
+        "9 أحرف"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": 34,
+      "paragraph_id": 10,
+      "question": "The human _____ has five main senses.",
+      "answer": "body",
+      "hints": [
+        "جسم الإنسان",
+        "يبدأ بـ B",
+        "4 أحرف"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": 35,
+      "paragraph_id": 11,
+      "question": "_____ can be unpredictable and change quickly.",
+      "answer": "weather",
+      "hints": [
+        "حالة الطقس",
+        "يبدأ بـ W",
+        "7 أحرف"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": 36,
+      "paragraph_id": 12,
+      "question": "Online shopping offers great _____ and convenience.",
+      "answer": "variety",
+      "hints": [
+        "تنوع وخيارات",
+        "يبدأ بـ V",
+        "7 أحرف"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": 37,
+      "paragraph_id": 1,
+      "question": "Nice to _____ you!",
+      "answer": "meet",
+      "hints": [
+        "تشرفت بلقائك",
+        "يبدأ بـ M",
+        "4 أحرف"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": 38,
+      "paragraph_id": 2,
+      "question": "The _____ is Earth's natural satellite.",
+      "answer": "moon",
+      "hints": [
+        "القمر",
+        "يبدأ بـ M",
+        "4 أحرف"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": 39,
+      "paragraph_id": 3,
+      "question": "Regular exercise _____ stress and improves mood.",
+      "answer": "reduces",
+      "hints": [
+        "يقلل من التوتر",
+        "يبدأ بـ R",
+        "7 أحرف"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": 40,
+      "paragraph_id": 4,
+      "question": "Artificial _____ is changing many industries.",
+      "answer": "intelligence",
+      "hints": [
+        "الذكاء الاصطناعي",
+        "يبدأ بـ I",
+        "12 حرف"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": 41,
+      "paragraph_id": 5,
+      "question": "Always maintain _____ contact during conversations.",
+      "answer": "eye",
+      "hints": [
+        "التواصل البصري",
+        "يبدأ بـ E",
+        "3 أحرف"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": 42,
+      "paragraph_id": 6,
+      "question": "Plants need _____ to grow and survive.",
+      "answer": "sunlight",
+      "hints": [
+        "ضوء الشمس",
+        "يبدأ بـ S",
+        "8 أحرف"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": 43,
+      "paragraph_id": 7,
+      "question": "Libraries provide _____ to books and information.",
+      "answer": "access",
+      "hints": [
+        "إمكانية الوصول",
+        "يبدأ بـ A",
+        "6 أحرف"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": 44,
+      "paragraph_id": 8,
+      "question": "Educational _____ make learning fun for children.",
+      "answer": "games",
+      "hints": [
+        "ألعاب تعليمية",
+        "يبدأ بـ G",
+        "5 أحرف"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": 45,
+      "paragraph_id": 9,
+      "question": "Birds are _____ animals that can fly.",
+      "answer": "aerial",
+      "hints": [
+        "كائنات تطير في الهواء",
+        "يبدأ بـ A",
+        "6 أحرف"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": 46,
+      "paragraph_id": 10,
+      "question": "The _____ is the largest organ in the human body.",
+      "answer": "skin",
+      "hints": [
+        "أكبر عضو في الجسم",
+        "يبدأ بـ S",
+        "4 أحرف"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": 47,
+      "paragraph_id": 11,
+      "question": "Weather _____ use satellite data for predictions.",
+      "answer": "forecasters",
+      "hints": [
+        "خبراء الطقس",
+        "يبدأ بـ F",
+        "11 حرف"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": 48,
+      "paragraph_id": 12,
+      "question": "Smart _____ help people make informed buying decisions.",
+      "answer": "consumers",
+      "hints": [
+        "مستهلكون ذكيون",
+        "يبدأ بـ C",
+        "9 أحرف"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": 49,
+      "paragraph_id": 1,
+      "question": "I'm _____ to meet you.",
+      "answer": "pleased",
+      "hints": [
+        "سعيد بلقائك",
+        "يبدأ بـ P",
+        "7 أحرف"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": 50,
+      "paragraph_id": 2,
+      "question": "Stars produce _____ through nuclear fusion.",
+      "answer": "energy",
+      "hints": [
+        "الطاقة النووية",
+        "يبدأ بـ E",
+        "6 أحرف"
+      ],
+      "difficulty": "advanced"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "paragraph_id": 1,
+      "question": "What is the correct response to 'Hello'?",
+      "questionAr": "ما هو الرد الصحيح على 'Hello'؟",
+      "options": ["Goodbye", "Hello/Hi", "Thank you", "Sorry"],
+      "optionsAr": ["وداعاً", "مرحباً", "شكراً", "آسف"],
+      "correct_answer": 1,
+      "explanation": "الرد المناسب على التحية 'Hello' هو 'Hello' أو 'Hi'",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "paragraph_id": 1,
+      "question": "How do you ask someone's name politely?",
+      "questionAr": "كيف تسأل عن اسم شخص بأدب؟",
+      "options": ["Your name!", "What's your name?", "Tell me name", "Name please"],
+      "optionsAr": ["اسمك!", "ما اسمك؟", "قل لي الاسم", "الاسم رجاءً"],
+      "correct_answer": 1,
+      "explanation": "الطريقة المهذبة لسؤال الاسم هي 'What's your name?'",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "paragraph_id": 2,
+      "question": "How many planets are in our solar system?",
+      "questionAr": "كم عدد الكواكب في نظامنا الشمسي؟",
+      "options": ["7 planets", "8 planets", "9 planets", "10 planets"],
+      "optionsAr": ["7 كواكب", "8 كواكب", "9 كواكب", "10 كواكب"],
+      "correct_answer": 1,
+      "explanation": "يوجد 8 كواكب في نظامنا الشمسي بعد إعادة تصنيف بلوتو",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "paragraph_id": 3,
+      "question": "Which is NOT part of a healthy lifestyle?",
+      "questionAr": "أي مما يلي ليس جزءاً من نمط الحياة الصحي؟",
+      "options": ["Regular exercise", "Balanced diet", "Adequate sleep", "Smoking"],
+      "optionsAr": ["الرياضة المنتظمة", "النظام الغذائي المتوازن", "النوم الكافي", "التدخين"],
+      "correct_answer": 3,
+      "explanation": "التدخين ضار بالصحة وليس جزءاً من نمط الحياة الصحي",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "paragraph_id": 4,
+      "question": "Technology has most changed how we:",
+      "questionAr": "التكنولوجيا غيرت أكثر شيء في طريقة:",
+      "options": ["Sleep", "Eat", "Communicate", "Breathe"],
+      "optionsAr": ["النوم", "الأكل", "التواصل", "التنفس"],
+      "correct_answer": 2,
+      "explanation": "التكنولوجيا غيرت بشكل جذري طريقة تواصلنا",
+      "difficulty": "medium"
+    },
+    {
+      "id": 6,
+      "paragraph_id": 5,
+      "question": "When introducing yourself professionally, you should:",
+      "questionAr": "عند التعريف بنفسك مهنياً، يجب:",
+      "options": ["Share personal problems", "State your name clearly", "Ask about salary", "Ignore others"],
+      "optionsAr": ["مشاركة المشاكل الشخصية", "ذكر اسمك بوضوح", "السؤال عن الراتب", "تجاهل الآخرين"],
+      "correct_answer": 1,
+      "explanation": "التعريف المهني يتطلب ذكر الاسم بوضوح ومهنية",
+      "difficulty": "medium"
+    },
+    {
+      "id": 7,
+      "paragraph_id": 6,
+      "question": "At what temperature does water freeze?",
+      "questionAr": "عند أي درجة حرارة يتجمد الماء؟",
+      "options": ["0°C", "50°C", "100°C", "25°C"],
+      "optionsAr": ["0 مئوية", "50 مئوية", "100 مئوية", "25 مئوية"],
+      "correct_answer": 0,
+      "explanation": "الماء يتجمد عند درجة الصفر المئوي",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "paragraph_id": 7,
+      "question": "What is a major advantage of e-books?",
+      "questionAr": "ما الميزة الرئيسية للكتب الإلكترونية؟",
+      "options": ["They smell good", "Portable and convenient", "Always expensive", "Hard to read"],
+      "optionsAr": ["رائحتها جميلة", "محمولة ومريحة", "غالية دائماً", "صعبة القراءة"],
+      "correct_answer": 1,
+      "explanation": "الكتب الإلكترونية محمولة ومريحة - يمكن حمل مكتبة كاملة في جهاز واحد",
+      "difficulty": "medium"
+    },
+    {
+      "id": 9,
+      "paragraph_id": 8,
+      "question": "Play is important for children because it helps:",
+      "questionAr": "اللعب مهم للأطفال لأنه يساعد في:",
+      "options": ["Waste time", "Develop social skills", "Make them tired", "Nothing useful"],
+      "optionsAr": ["إضاعة الوقت", "تطوير المهارات الاجتماعية", "إتعابهم", "لا شيء مفيد"],
+      "correct_answer": 1,
+      "explanation": "اللعب يساعد الأطفال على تطوير المهارات الاجتماعية والمعرفية",
+      "difficulty": "medium"
+    },
+    {
+      "id": 10,
+      "paragraph_id": 9,
+      "question": "Dogs are most famous for being:",
+      "questionAr": "الكلاب مشهورة أكثر شيء بكونها:",
+      "options": ["Independent", "Loyal", "Quiet", "Lazy"],
+      "optionsAr": ["مستقلة", "وفية", "هادئة", "كسولة"],
+      "correct_answer": 1,
+      "explanation": "الكلاب مشهورة بولائها وإخلاصها لأصحابها",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "paragraph_id": 10,
+      "question": "How many main senses do humans have?",
+      "questionAr": "كم عدد الحواس الرئيسية للإنسان؟",
+      "options": ["3 senses", "4 senses", "5 senses", "6 senses"],
+      "optionsAr": ["3 حواس", "4 حواس", "5 حواس", "6 حواس"],
+      "correct_answer": 2,
+      "explanation": "الإنسان لديه 5 حواس رئيسية: البصر، السمع، الشم، التذوق، اللمس",
+      "difficulty": "easy"
+    },
+    {
+      "id": 12,
+      "paragraph_id": 11,
+      "question": "Weather forecasts help us:",
+      "questionAr": "توقعات الطقس تساعدنا في:",
+      "options": ["Control weather", "Plan activities", "Change seasons", "Stop rain"],
+      "optionsAr": ["التحكم بالطقس", "التخطيط للأنشطة", "تغيير الفصول", "إيقاف المطر"],
+      "correct_answer": 1,
+      "explanation": "توقعات الطقس تساعدنا في التخطيط للأنشطة اليومية",
+      "difficulty": "easy"
+    },
+    {
+      "id": 13,
+      "paragraph_id": 12,
+      "question": "Before making a big purchase, you should:",
+      "questionAr": "قبل القيام بشراء كبير، يجب:",
+      "options": ["Buy immediately", "Compare prices", "Ask one person", "Wait a year"],
+      "optionsAr": ["الشراء فوراً", "مقارنة الأسعار", "سؤال شخص واحد", "الانتظار سنة"],
+      "correct_answer": 1,
+      "explanation": "من الحكمة مقارنة الأسعار والبحث قبل الشراء الكبير",
+      "difficulty": "medium"
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "paragraph_id": 1,
+      "instruction": "Complete the greeting conversation",
+      "instructionAr": "أكمل المحادثة التحية",
+      "sentence": "A: Hello! How are you? B: I'm _____, thank you.",
+      "correct_answers": ["fine", "good", "well", "okay"],
+      "hint": "A common response to 'How are you?'",
+      "hintAr": "رد شائع على 'كيف حالك؟'",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "paragraph_id": 1,
+      "instruction": "Write the polite way to ask someone's name",
+      "instructionAr": "اكتب الطريقة المهذبة لسؤال اسم شخص",
+      "sentence": "_______ _______ _______?",
+      "correct_answers": ["what's your name", "what is your name"],
+      "hint": "Three words starting with 'What'",
+      "hintAr": "ثلاث كلمات تبدأ بـ 'What'",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "paragraph_id": 2,
+      "instruction": "Complete the science fact",
+      "instructionAr": "أكمل الحقيقة العلمية",
+      "sentence": "The _____ is the center of our solar system.",
+      "correct_answers": ["sun"],
+      "hint": "The star that gives us light and heat",
+      "hintAr": "النجم الذي يعطينا الضوء والحرارة",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "paragraph_id": 3,
+      "instruction": "Complete the health advice",
+      "instructionAr": "أكمل النصيحة الصحية",
+      "sentence": "Drinking plenty of _____ is essential for good health.",
+      "correct_answers": ["water"],
+      "hint": "Clear liquid we need to survive",
+      "hintAr": "السائل الشفاف الذي نحتاجه للعيش",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "paragraph_id": 4,
+      "instruction": "Complete the technology statement",
+      "instructionAr": "أكمل الجملة حول التكنولوجيا",
+      "sentence": "Smartphones have changed how we _____.",
+      "correct_answers": ["communicate", "talk", "connect"],
+      "hint": "How we talk to each other",
+      "hintAr": "كيف نتحدث مع بعضنا البعض",
+      "difficulty": "medium"
+    }
+  ],
+  "keywords": [
+    {
+      "id": 1,
+      "paragraph_id": 1,
+      "word": "Hello",
+      "pronunciation": "/həˈloʊ/",
+      "meaning": "A greeting used when meeting someone",
+      "meaningAr": "تحية تستخدم عند مقابلة شخص",
+      "example": "Hello! Nice to meet you.",
+      "exampleAr": "مرحباً! تشرفت بلقائك.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "paragraph_id": 1,
+      "word": "Goodbye",
+      "pronunciation": "/ɡʊdˈbaɪ/",
+      "meaning": "A farewell expression",
+      "meaningAr": "تعبير للوداع",
+      "example": "Goodbye! See you tomorrow.",
+      "exampleAr": "وداعاً! أراك غداً.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "paragraph_id": 2,
+      "word": "Planet",
+      "pronunciation": "/ˈplænɪt/",
+      "meaning": "A celestial body orbiting a star",
+      "meaningAr": "جرم سماوي يدور حول نجم",
+      "example": "Earth is our home planet.",
+      "exampleAr": "الأرض هي كوكبنا الذي نسكنه.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "paragraph_id": 3,
+      "word": "Healthy",
+      "pronunciation": "/ˈhelθi/",
+      "meaning": "In good physical or mental condition",
+      "meaningAr": "في حالة جسدية أو ذهنية جيدة",
+      "example": "Eating vegetables keeps you healthy.",
+      "exampleAr": "أكل الخضروات يبقيك في صحة جيدة.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "paragraph_id": 4,
+      "word": "Technology",
+      "pronunciation": "/tekˈnɑːlədʒi/",
+      "meaning": "Application of scientific knowledge",
+      "meaningAr": "تطبيق المعرفة العلمية",
+      "example": "Technology has made life easier.",
+      "exampleAr": "التكنولوجيا جعلت الحياة أسهل.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 6,
+      "paragraph_id": 6,
+      "instruction": "Complete the science fact about water",
+      "instructionAr": "أكمل الحقيقة العلمية حول الماء",
+      "sentence": "Water _____ at 0°C (32°F).",
+      "correct_answers": ["freezes", "becomes ice", "turns to ice"],
+      "hint": "What happens to water when it gets very cold",
+      "hintAr": "ماذا يحدث للماء عندما يصبح بارداً جداً",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "paragraph_id": 7,
+      "instruction": "Complete the reading statement",
+      "instructionAr": "أكمل الجملة حول القراءة",
+      "sentence": "_____ are a great source of knowledge and entertainment.",
+      "correct_answers": ["books", "ebooks", "novels"],
+      "hint": "Things we read for learning and fun",
+      "hintAr": "أشياء نقرأها للتعلم والمتعة",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "paragraph_id": 8,
+      "instruction": "Complete the child development statement",
+      "instructionAr": "أكمل الجملة حول تطوير الطفل",
+      "sentence": "Children learn best through _____ and exploration.",
+      "correct_answers": ["play", "playing", "games"],
+      "hint": "Fun activities that help children learn",
+      "hintAr": "أنشطة ممتعة تساعد الأطفال على التعلم",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "paragraph_id": 9,
+      "instruction": "Complete the pet characteristic",
+      "instructionAr": "أكمل صفة الحيوان الأليف",
+      "sentence": "Dogs are known for being _____ to their owners.",
+      "correct_answers": ["loyal", "faithful", "devoted"],
+      "hint": "A quality showing dedication and faithfulness",
+      "hintAr": "صفة تظهر الإخلاص والوفاء",
+      "difficulty": "medium"
+    },
+    {
+      "id": 10,
+      "paragraph_id": 10,
+      "instruction": "Complete the senses statement",
+      "instructionAr": "أكمل الجملة حول الحواس",
+      "sentence": "We use our _____ to see the beautiful world.",
+      "correct_answers": ["eyes", "sight", "vision"],
+      "hint": "Body parts we use for seeing",
+      "hintAr": "أجزاء الجسم التي نستخدمها للرؤية",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "paragraph_id": 11,
+      "instruction": "Complete the weather statement",
+      "instructionAr": "أكمل الجملة حول الطقس",
+      "sentence": "Checking the weather _____ helps us plan our day.",
+      "correct_answers": ["forecast", "report", "prediction"],
+      "hint": "Information about future weather conditions",
+      "hintAr": "معلومات حول أحوال الطقس المستقبلية",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "paragraph_id": 12,
+      "instruction": "Complete the shopping advice",
+      "instructionAr": "أكمل نصيحة التسوق",
+      "sentence": "Smart shoppers always _____ prices before buying.",
+      "correct_answers": ["compare", "check", "research"],
+      "hint": "What you do to find the best deal",
+      "hintAr": "ما تفعله للعثور على أفضل صفقة",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13, 
+      "paragraph_id": 1,
+      "instruction": "Write a formal introduction",
+      "instructionAr": "اكتب تعارف رسمي",
+      "sentence": "Good morning. My name is John. _____ to meet you.",
+      "correct_answers": ["nice", "pleased", "happy", "glad"],
+      "hint": "Polite expression when meeting someone",
+      "hintAr": "تعبير مهذب عند مقابلة شخص",
+      "difficulty": "easy"
+    },
+    {
+      "id": 14,
+      "paragraph_id": 2,
+      "instruction": "Complete the solar system fact",
+      "instructionAr": "أكمل حقيقة النظام الشمسي",
+      "sentence": "The _____ provides light and heat to Earth.",
+      "correct_answers": ["sun", "star"],
+      "hint": "The bright star at the center of our solar system",
+      "hintAr": "النجم المضيء في مركز نظامنا الشمسي",
+      "difficulty": "easy"
+    },
+    {
+      "id": 15,
+      "paragraph_id": 3,
+      "instruction": "Complete the health tip",
+      "instructionAr": "أكمل النصيحة الصحية",
+      "sentence": "Regular _____ keeps your body strong and healthy.",
+      "correct_answers": ["exercise", "workout", "activity"],
+      "hint": "Physical activity that keeps you fit",
+      "hintAr": "النشاط البدني الذي يحافظ على لياقتك",
+      "difficulty": "easy"
+    },
+    {
+      "id": 16,
+      "paragraph_id": 4,
+      "instruction": "Complete the technology impact statement",
+      "instructionAr": "أكمل جملة تأثير التكنولوجيا",
+      "sentence": "The _____ has revolutionized global communication.",
+      "correct_answers": ["internet", "web", "network"],
+      "hint": "Global network connecting computers worldwide",
+      "hintAr": "الشبكة العالمية التي تربط الحواسيب حول العالم",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "paragraph_id": 5,
+      "instruction": "Complete the business introduction",
+      "instructionAr": "أكمل التعارف التجاري",
+      "sentence": "Let me _____ myself. I'm Sarah from the marketing department.",
+      "correct_answers": ["introduce", "present"],
+      "hint": "What you do when meeting someone for the first time",
+      "hintAr": "ما تفعله عند مقابلة شخص لأول مرة",
+      "difficulty": "medium"
+    },
+    {
+      "id": 18,
+      "paragraph_id": 6,
+      "instruction": "Complete the physics fact",
+      "instructionAr": "أكمل الحقيقة الفيزيائية",
+      "sentence": "When water reaches 100°C, it begins to _____.",
+      "correct_answers": ["boil", "bubble", "evaporate"],
+      "hint": "What happens to water at its boiling point",
+      "hintAr": "ما يحدث للماء عند نقطة الغليان",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "paragraph_id": 7,
+      "instruction": "Complete the reading benefits statement",
+      "instructionAr": "أكمل جملة فوائد القراءة",
+      "sentence": "Reading _____ your vocabulary and knowledge.",
+      "correct_answers": ["improves", "expands", "increases", "enhances"],
+      "hint": "What reading does to your language skills",
+      "hintAr": "ما تفعله القراءة بمهاراتك اللغوية",
+      "difficulty": "medium"
+    },
+    {
+      "id": 20,
+      "paragraph_id": 8,
+      "instruction": "Complete the child psychology statement",
+      "instructionAr": "أكمل جملة علم نفس الطفل",
+      "sentence": "Through play, children develop their _____ and motor skills.",
+      "correct_answers": ["social", "cognitive", "mental"],
+      "hint": "Skills related to thinking and interacting",
+      "hintAr": "مهارات متعلقة بالتفكير والتفاعل",
+      "difficulty": "advanced"
+    },
+    {
+      "id": 21,
+      "paragraph_id": 9,
+      "instruction": "Complete the animal behavior statement",
+      "instructionAr": "أكمل جملة سلوك الحيوان",
+      "sentence": "Cats are _____ hunters that are most active at night.",
+      "correct_answers": ["natural", "instinctive", "born"],
+      "hint": "Having abilities from birth, not learned",
+      "hintAr": "امتلاك قدرات من الولادة، وليس مكتسبة",
+      "difficulty": "advanced"
+    },
+    {
+      "id": 22,
+      "paragraph_id": 10,
+      "instruction": "Complete the anatomy statement", 
+      "instructionAr": "أكمل جملة علم التشريح",
+      "sentence": "The _____ is the largest organ in the human body.",
+      "correct_answers": ["skin"],
+      "hint": "The outer covering of your body",
+      "hintAr": "الغطاء الخارجي لجسمك",
+      "difficulty": "medium"
+    },
+    {
+      "id": 23,
+      "paragraph_id": 11,
+      "instruction": "Complete the meteorology statement",
+      "instructionAr": "أكمل جملة علم الأرصاد",
+      "sentence": "Weather _____ use satellites and computers for predictions.",
+      "correct_answers": ["forecasters", "meteorologists", "scientists"],
+      "hint": "People who study and predict weather",
+      "hintAr": "الأشخاص الذين يدرسون ويتوقعون الطقس",
+      "difficulty": "advanced"
+    },
+    {
+      "id": 24,
+      "paragraph_id": 12,
+      "instruction": "Complete the consumer advice",
+      "instructionAr": "أكمل نصيحة المستهلك",
+      "sentence": "Read product _____ carefully before making a purchase.",
+      "correct_answers": ["reviews", "ratings", "feedback"],
+      "hint": "What other customers say about products",
+      "hintAr": "ما يقوله العملاء الآخرون عن المنتجات",
+      "difficulty": "medium"
+    },
+    {
+      "id": 25,
+      "paragraph_id": 1, 
+      "instruction": "Complete the casual greeting",
+      "instructionAr": "أكمل التحية غير الرسمية",
+      "sentence": "Hey! What's _____?",
+      "correct_answers": ["up", "going on", "happening"],
+      "hint": "Casual way to ask how someone is doing",
+      "hintAr": "طريقة غير رسمية لسؤال أحدهم عن أحواله",
+      "difficulty": "easy"
+    }
+  ],
+  "writing_exercises": [
+    {
+      "id": 1,
+      "paragraph_id": 1,
+      "instruction": "Write a short dialogue introducing two people",
+      "instructionAr": "اكتب حوار قصير يقدم شخصين",
+      "prompt": "Create a conversation where Person A introduces Person B to Person C.",
+      "sample_answer": "A: Hi Sarah, I'd like you to meet my friend Tom. B: Nice to meet you, Tom! C: Nice to meet you too, Sarah!",
+      "criteria": ["Uses proper greetings", "Includes introductions", "Natural flow"],
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "paragraph_id": 2,
+      "instruction": "Write a paragraph about space exploration",
+      "instructionAr": "اكتب فقرة حول استكشاف الفضاء",
+      "prompt": "Describe why space exploration is important for humanity.",
+      "sample_answer": "Space exploration helps us understand our universe and develop new technologies. It inspires future generations and may help us find solutions to Earth's challenges.",
+      "criteria": ["Clear main idea", "Supporting details", "Proper grammar"],
+      "difficulty": "medium"
+    },
+    {
+      "id": 3,
+      "paragraph_id": 3,
+      "instruction": "Create a healthy lifestyle plan",
+      "instructionAr": "ضع خطة لنمط حياة صحي",
+      "prompt": "Write a daily routine that promotes good health.",
+      "sample_answer": "A healthy day starts with a nutritious breakfast, includes 30 minutes of exercise, plenty of water, and 7-8 hours of sleep.",
+      "criteria": ["Practical suggestions", "Health benefits", "Clear organization"],
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "paragraph_id": 4,
+      "instruction": "Discuss technology's impact on education",
+      "instructionAr": "ناقش تأثير التكنولوجيا على التعليم",
+      "prompt": "How has technology changed the way we learn?",
+      "sample_answer": "Technology has made learning more interactive and accessible. Online courses, educational apps, and virtual classrooms allow students to learn anytime, anywhere.",
+      "criteria": ["Multiple examples", "Clear arguments", "Balanced perspective"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": 5,
+      "paragraph_id": 5,
+      "instruction": "Write a professional email introduction",
+      "instructionAr": "اكتب مقدمة بريد إلكتروني مهني",
+      "prompt": "Introduce yourself to a new business contact.",
+      "sample_answer": "Dear Mr. Johnson, I hope this email finds you well. My name is Alex Smith, and I'm the new Marketing Manager at ABC Company. I look forward to working with you.",
+      "criteria": ["Professional tone", "Clear identification", "Appropriate closing"],
+      "difficulty": "medium"
+    }
+  ],
+  "contact_info": {
+    "email": "hk102573@gmail.com",
+    "phone": "+971 54 440 1266",
+    "location": "أبوظبي، الإمارات العربية المتحدة",
+    "social_media": {
+      "instagram": "@language_learning_uae",
+      "twitter": "@LearnEnglishAE",
+      "linkedin": "Language Learning UAE"
+    },
+    "support_hours": "الأحد - الخميس: 9:00 صباحاً - 6:00 مساءً",
+    "response_time": "خلال 24 ساعة"
+  }
+}
