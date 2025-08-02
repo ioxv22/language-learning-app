@@ -11,10 +11,11 @@ const BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:54112';
 // إعداد axios مع إعدادات افتراضية
 const api = axios.create({
   baseURL: BASE_URL,
-  timeout: 10000, // مهلة زمنية 10 ثوان
+  timeout: 30000, // زيادة المهلة الزمنية إلى 30 ثانية
   headers: {
     'Content-Type': 'application/json',
-  }
+  },
+  withCredentials: false // تعطيل إرسال بيانات الاعتماد
 });
 
 // معالج الطلبات - لإضافة headers إضافية إذا لزم الأمر
@@ -37,7 +38,15 @@ api.interceptors.response.use(
     
     // معالجة أخطاء الشبكة
     if (!error.response) {
-      throw new Error('خطأ في الاتصال بالخادم. تحقق من اتصال الإنترنت.');
+      console.log('محاولة إعادة الاتصال بالخادم...');
+      
+      // إذا كان الخادم في وضع السكون، قد يحتاج إلى وقت للاستيقاظ
+      // يمكننا إعادة المحاولة بعد فترة
+      return new Promise((resolve) => {
+        setTimeout(() => {
+          resolve(api(error.config));
+        }, 3000); // إعادة المحاولة بعد 3 ثوانٍ
+      });
     }
     
     // معالجة أخطاء الخادم

@@ -19,10 +19,18 @@ const PORT = process.env.PORT || 54112;
 // ===================================
 
 // CORS - للسماح بالطلبات من جميع النطاقات (للاختبار فقط)
-app.use(cors({
-  origin: '*', // السماح لجميع النطاقات
-  credentials: true
-}));
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
+  if (req.method === 'OPTIONS') {
+    res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH');
+    return res.status(200).json({});
+  }
+  next();
+});
+
+// استخدام cors كوسيط إضافي
+app.use(cors());
 
 // Body Parser - لتحليل JSON في الطلبات
 app.use(bodyParser.json());
