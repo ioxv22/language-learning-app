@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 54112;
 
 // CORS - للسماح بالطلبات من النطاقات الأخرى
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:3001'], // النطاقات المسموحة
+  origin: ['http://localhost:3000', 'http://localhost:3001', 'https://language-learning-app.vercel.app', 'https://language-learning-app-ioxv22.vercel.app'], // النطاقات المسموحة
   credentials: true
 }));
 
