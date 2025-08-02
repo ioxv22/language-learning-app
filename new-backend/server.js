@@ -18,9 +18,9 @@ const PORT = process.env.PORT || 54112;
 // إعداد الوسطاء
 // ===================================
 
-// CORS - للسماح بالطلبات من النطاقات الأخرى
+// CORS - للسماح بالطلبات من جميع النطاقات (للاختبار فقط)
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:3001', 'https://language-learning-app.vercel.app', 'https://language-learning-app-ioxv22.vercel.app'], // النطاقات المسموحة
+  origin: '*', // السماح لجميع النطاقات
   credentials: true
 }));
 
